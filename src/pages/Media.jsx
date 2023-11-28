@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 const CardM = ({ day, title, para, img1, img2, img3, img4, colour }) => {
   return (
     <div
-      className={`flex items-center text-${colour} mx-auto h-full w-full justify-center font-custom md:w-2/3`}
+      className={`flex items-center text-${colour} mx-auto h-full w-full justify-center font-poppins md:w-2/3`}
     >
       <div  data-aos="fade-up" className="">
         <div className="m-2 mb-2  w-full md:flex">
@@ -49,7 +49,7 @@ const Media = () => {
         data-aos="fade-left"
         className="m-2 flex-col items-center justify-center rounded-3xl bg-blue-500 py-10"
       >
-        <h1 className="my-4 text-center font-custom text-5xl font-bold text-white">
+        <h1 className="my-4 text-center font-poppins text-5xl font-bold text-white">
           CHARJKARO AT REEVE 2023
         </h1>
         <CardM

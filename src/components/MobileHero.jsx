@@ -13,7 +13,7 @@ const MobileHero = () => {
           </p>
         </div>
       </div> */}
-      <div className="relative md:hidden">
+      <div className="relative md:hidden ">
         <img src="https://i.ibb.co/tpYN7xL/shutterstock-750610873.jpg" alt="" className="brightness-50 h-80" />
         <div className="absolute bottom-6 pl-5 ">
           <h4 className="text-4xl font-semibold text-white my-3">

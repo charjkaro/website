@@ -74,7 +74,7 @@ const LocationMob = () => {
       id="location"
       className="flex items-center justify-center h-screen md:hidden my-10"
     >
-      <div className="flex-col items-center justify-center rounded-3xl bg-[#e2eed1] py-10 text-center font-custom ">
+      <div className="flex-col items-center justify-center rounded-3xl bg-[#e2eed1] py-10 text-center font-poppins ">
         <h1 className="pb-10 text-4xl font-bold text-blue-600">
           CHARJKARO STATION LOCATION
         </h1>
@@ -102,7 +102,7 @@ const LocationMob = () => {
                   {location.stations}
                 </p>
                 <div className="card-actions justify-center">
-                  <button className="btn btn-primary">Check Out</button>
+                  <button className="btn btn-primary">Find Out</button>
                 </div>
               </div>
             </div>

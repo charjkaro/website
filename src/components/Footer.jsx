@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className=" bg-black bg-[url('https://images.pngnice.com/download/2007/Graphic-Elements-Transparent-Background.png')] bg-cover">
-      <div className="md:px-30 justify-between rounded-3xl rounded-b-none bg-[url('')] bg-cover bg-no-repeat p-10 font-custom text-white md:flex">
+      <div className="md:px-30 justify-between rounded-3xl rounded-b-none bg-[url('')] bg-cover bg-no-repeat p-10 font-poppins text-white md:flex">
         <img
           src="https://i.ibb.co/chSxRVS/no-bg-logo.png"
           alt=""
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="py-4 text-center text-sm text-gray-500">
-        © 2023 Your Company Name. All rights reserved.
+        © 2023 CharjKaro. All rights reserved.
       </p>
     </div>
   );

@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <div className="m-8 my-10 text-center font-custom text-5xl font-semibold text-blue-600">
+      <div className="m-8 my-10 text-center font-poppins text-5xl font-semibold text-blue-600">
         Follow Us on
         <div
           className=" mt-4

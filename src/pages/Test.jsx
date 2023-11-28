@@ -63,6 +63,22 @@ const Test = () => {
           </div>
         </div>
       </div>
+          <div className="">
+            <div className="flex justify-center w-full py-2 gap-2 -translate-y-10 ">
+              <a href="#slide1" className="btn btn-xs text-white border bg-transparent">
+                1
+              </a>
+              <a href="#slide2" className=" btn btn-xs text-white border bg-transparent">
+                2
+              </a>
+              <a href="#slide3" className=" btn btn-xs text-white border bg-transparent">
+                3
+              </a>
+              <a href="#slide1" className=" btn btn-xs text-white border bg-transparent">
+                4
+              </a>
+            </div>
+          </div>
     </div>
   );
 };

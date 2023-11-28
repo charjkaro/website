@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Nav from "./ResNav";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="font-custom ">
+    <div className="font-poppins   ">
       <div className="md:flex items-center justify-evenly bg-blue-600 p-1 text-white hidden">
         <div className="gap-10 md:flex">
           <h1 className="font-">Soho 930 New Delhi, India</h1>
@@ -43,7 +44,7 @@ const Navbar = () => {
           />
         </div>
       </div>
-      <div className="md:flex items-center justify-between md:px-10 px-2 border-b-2 border-gray-300 hidden ">
+      <div className="md:flex items-center justify-between md:px-10 - border-b-2 border-gray-300 hidden ">
         <div className="">
           <img
             src="https://i.ibb.co/chSxRVS/no-bg-logo.png"
@@ -63,9 +64,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="">
-        <div className="navbar bg-base-100 md:hidden ">
-          <div className="navbar-start">
-            <div className="dropdown">
+        <div className="navbar bg-base-100  md:hidden ">
+          <div className="navbar-start hidden">
+            <div className="dropdown ">
               <label className="btn btn-circle swap swap-rotate">
                 {/* this hidden checkbox controls the state */}
                 <input type="checkbox" />
@@ -98,63 +99,64 @@ const Navbar = () => {
               >
                 <Link
                   to="/"
-                  className="mx-2 block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                  className="- block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95 "
                 >
                   Home
                 </Link>
                 <Link
                   to="/about"
-                  className="mx-2  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                  className="-  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
                 >
                   About Us
                 </Link>
                 <Link
                   to="/#advantages"
-                  className="mx-2  block   text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                  className="-  block   text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
                 >
                   Advantage
                 </Link>
-                <Link className="mx-2  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
+                <Link className="-  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
                   Partner
                 </Link>
                 <Link
                   to="/#location"
-                  className="mx-2  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                  className="-  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
                 >
                   {" "}
                   Charging Station
                 </Link>
                 <Link
                   to="/#technology"
-                  className="mx-2  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                  className="-  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
                 >
                   Technology
                 </Link>
-                <Link className="mx-2   block text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
+                <Link className="-   block text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
                   Clients
                 </Link>
 
                 <Link
                   to="/media"
-                  className="mx-2  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                  className="-  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
                 >
                   Media
                 </Link>
                 <Link
                   to="/faq"
-                  className="mx-2  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                  className="-  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
                 >
                   FAQs
                 </Link>
                 <Link
                   to="/contact"
-                  className="mx-2  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                  className="-  block  text-xl transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
                 >
                   Contact
                 </Link>
               </ul>
             </div>
           </div>
+          <Nav />
           <div className="navbar-center">
             <img
               src="https://i.ibb.co/chSxRVS/no-bg-logo.png"
@@ -165,61 +167,62 @@ const Navbar = () => {
           <div className="navbar-end"></div>
         </div>
         <ul
-          className={`$ hidden justify-center gap-10 p-5 font-custom font-bold text-blue-600 lg:flex`}
+          className={`$ hidden justify-center gap-10 p-5  font-bold text-blue-600 lg:flex font-poppins`}
         >
+         
           <Link
             to="/"
-            className="mx-2 block  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+            className="  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="mx-2  block  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+            className="  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
           >
             About Us
           </Link>
           <Link
             to="/#advantages"
-            className="mx-2  block   text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+            className="-  block - - rounded-xl hover:text-black   text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
           >
             Advantage
           </Link>
-          <Link className="mx-2  block  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
+          <Link className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
             Partner
           </Link>
           <Link
             to="/#location"
-            className="mx-2  block  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+            className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
           >
             {" "}
             Charging Station
           </Link>
           <Link
             to="/#technology"
-            className="mx-2  block  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+            className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
           >
             Technology
           </Link>
-          <Link className="mx-2   block text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
+          <Link className="-   block - - rounded-xl hover:text-black text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
             Clients
           </Link>
 
           <Link
             to="/media"
-            className="mx-2  block  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+            className="-  block - - rounded-md hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
           >
             Media
           </Link>
           <Link
             to="/faq"
-            className="mx-2  block  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+            className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
           >
             FAQs
           </Link>
           <Link
             to="/contact"
-            className="mx-2  block  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+            className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
           >
             Contact
           </Link>

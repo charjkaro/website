@@ -38,11 +38,11 @@ const LocationInfo = () => {
 
   return (
     <div>
-      <div className="hidden md:flex flex-col items-center justify-center rounded-3xl bg-[#e2eed1] py-10 text-center font-custom ">
-        <h1 className="pb-10 text-4xl font-bold text-blue-600">
+      <div id="location" className="hidden md:flex flex-col items-center justify-center rounded-3xl bg-[#aab69a] py-10 text-center font-poppins ">
+        <h1 className="pb-2 pt-10 text-4xl font-bold text-blue-600">
           CHARJKARO STATION LOCATION
         </h1>
-        <p className="px-10 text-left text-lg md:text-center text-gray-500">
+        <p className="px-10 text-left text-lg md:text-center text-[#333333]">
           CharjKaro has a network of 300+ EV Charging Stations spread across
           Delhi. Presenting a chain of reliable charging options in Delhi
         </p>
@@ -50,7 +50,7 @@ const LocationInfo = () => {
           <img
             src="https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png"
             alt=""
-            className="mr h-[30rem] w-2/3"
+            className="mr h-[30rem] w-2/3 rounded-3xl"
           />
           <div className="w-96 carousel rounded-box">
             {locations.map((location, index) => (
@@ -82,7 +82,7 @@ const LocationInfo = () => {
                     <br /> Charging Stations
                   </p>
                   <div className="card-actions">
-                    <button className="btn btn-primary">Check Out</button>
+                    <button className="btn btn-primary">Find Out</button>
                   </div>
                 </div>
               </div>

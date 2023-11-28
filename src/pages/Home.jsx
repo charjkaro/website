@@ -10,6 +10,8 @@ import Navbar from "../components/Navbar";
 import LocationInfo from "../components/LocationInfo";
 import Test from "./Test";
 import LocationMob from "../components/LocationMob";
+import Nav from "../components/ResNav";
+
 
 const advantages = [
   {
@@ -89,14 +91,14 @@ const Card = ({ imageSrc, title, description }) => (
   // </div>
   <div
     data-aos="fade-down"
-    className="card w-80 glass border-green-500 border-2 my-10"
+    className="card w-80   my-10"
   >
     <figure>
-      <img src={imageSrc} alt="car!" className="h-72" />
+      <img src={imageSrc} alt="car!" className="h-80 w-80" />
     </figure>
-    <div className="card-body bg-transparent">
-      <h2 className="card-title">{title}</h2>
-      <p>{description}</p>
+    <div className=" bg-transparent my-5">
+      <h2 className="text-2xl my-2 font-semibold">{title}</h2>
+      <p className="text-[1.11rem] my-2 font-medium text-[#333333]">{description}</p>
     </div>
   </div>
 );
@@ -165,13 +167,15 @@ const Home = () => {
   }, [hash]);
 
   return (
-    <div className="font-avenir">
+    <div className="font-poppins">
       <Navbar />
+      
+      
       <Test />
 
       <div
         data-aos="fade-up"
-        className="pb-20 my-10 text-center font-custom md:p-20 "
+        className=" my- text-center  md:p-20 font-poppins "
       >
         <h1 className="pb-10 text-4xl font-bold text-blue-600">
           SUSTAINABILITY – THE NEW BUZZ WORD
@@ -190,7 +194,7 @@ const Home = () => {
 
       <div
         data-aos="fade-up"
-        className="rounded-3xl bg-blue-600 py-10 text-center font-custom text-white md:p-10 bg-[url('https://images.pngnice.com/download/2007/Graphic-Elements-Transparent-Background.png')] bg-cover"
+        className="rounded-3xl font-poppins bg-blue-600 py-10 text-center  text-white md:p-10 bg-[url('https://images.pngnice.com/download/2007/Graphic-Elements-Transparent-Background.png')] bg-cover"
       >
         <h1 className=" pb-10 text-4xl font-bold">CHARJKARO APP</h1>
         <p className="px-10 text-xl">
@@ -214,7 +218,7 @@ const Home = () => {
       <div
         id="technology"
         data-aos="fade-up"
-        className="flex-col items-center justify-center rounded-3xl   py-10 font-custom  md:p-20 bg-[#e2eed1] "
+        className="flex-col items-center font-poppins justify-center rounded-3xl   py-10   md:p-20 bg-[#aab69a] "
       >
         <h1 className="pb-10 text-center text-4xl font-bold text-blue-600 ">
           What We Offer

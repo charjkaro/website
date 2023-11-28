@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <div className=" bg-black bg-[url('https://images.pngnice.com/download/2007/Graphic-Elements-Transparent-Background.png')] bg-cover">
+    <div className="  bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover">
       <div className="md:px-30 justify-between rounded-3xl rounded-b-none bg-[url('')] bg-cover bg-no-repeat p-10 font-poppins text-white md:flex">
         <img
-          src="https://i.ibb.co/chSxRVS/no-bg-logo.png"
+          src="https://i.ibb.co/TmvGCJV/logowhite-removebg-preview.png"
           alt=""
           className="  md:w-[15rem ] md:h-[15rem]"
         />

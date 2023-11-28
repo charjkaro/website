@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <div
       data-aos="fade-up"
-      className="md:flex flex-col-reverse items-center justify-evenly w-full bg-[url('https://images.pngnice.com/download/2007/Graphic-Elements-Transparent-Background.png')] bg-cover  bg-blue-600 p-4 text-white md:flex-row md:p-10 hidden"
+      className="md:flex flex-col-reverse items-center justify-evenly w-full bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover   p-4 text-white md:flex-row md:p-10 hidden"
     >
       <div className="md:mr-4 md:w-1/2">
         <div className="mb-4 translate-x-10 font-poppins text-xl font-semibold md:text-6xl">

@@ -47,7 +47,7 @@ const Media = () => {
       <Navbar />
       <div
         data-aos="fade-left"
-        className="m-2 flex-col items-center justify-center rounded-3xl bg-blue-500 py-10"
+        className="m- flex-col items-center justify-center rounded-3xl bg-blue-500 py-10"
       >
         <h1 className="my-4 text-center font-poppins text-5xl font-bold text-white">
           CHARJKARO AT REEVE 2023
@@ -78,7 +78,7 @@ const Media = () => {
           "
         />
       </div>
-      <div  data-aos="fade-left" className="m-2 flex items-center justify-center   rounded-3xl bg-slate-200 py-10">
+      <div  data-aos="fade-left" className="m- flex items-center justify-center   rounded-3xl bg-[#36aa4a] text-white py-10">
         <CardM
           img1="https://i.ibb.co/wJRNh7K/9.jpg"
           img2="https://i.ibb.co/5xV9R27/10.jpg"

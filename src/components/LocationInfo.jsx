@@ -38,11 +38,11 @@ const LocationInfo = () => {
 
   return (
     <div>
-      <div id="location" className="hidden md:flex flex-col items-center justify-center rounded-3xl bg-[#aab69a] py-10 text-center font-poppins ">
-        <h1 className="pb-2 pt-10 text-4xl font-bold text-blue-600">
+      <div id="location" className="hidden md:flex flex-col items-center justify-center rounded-3xl bg-[#36aa4a] py-10 text-center font-poppins ">
+        <h1 className="pb-2 pt-10 text-4xl font-bold text-white">
           CHARJKARO STATION LOCATION
         </h1>
-        <p className="px-10 text-left text-lg md:text-center text-[#333333]">
+        <p className="px-10 text-left text-lg md:text-center text-white">
           CharjKaro has a network of 300+ EV Charging Stations spread across
           Delhi. Presenting a chain of reliable charging options in Delhi
         </p>

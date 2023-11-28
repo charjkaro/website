@@ -8,56 +8,43 @@ import Endcard from "../components/Endcard";
 const json = {
   FAQs: [
     {
-      question: "How does an electric vehicle (EV) charge?",
-      answer:
-        "Electric vehicles are charged through a charging station that uses an electric outlet to deliver electricity. The charging station connects to the vehicle's battery, which stores the electricity for use when the vehicle is not plugged in.",
+      "question": "What does CharjKaro Offer?",
+      "answer": "CharjKaro is a dedicated facility for charging electric vehicles. It has the necessary infrastructure to recharge EV batteries, for smooth and efficient operations."
     },
     {
-      question: "What are the different types of EV charging stations?",
-      answer:
-        "There are several types of EV charging stations, including Level 1 (120V), Level 2 (240V), and DC Fast Charging (480V or higher). Level 1 and Level 2 stations are commonly used in residential settings, while DC Fast Charging stations are used for long distance travel.",
+      "question": "How long does it take to charge an electric vehicle?",
+      "answer": "The charging time varies based on the vehicle's battery capacity. Generally, it can range from a few hours for standard charging to faster charging options that can provide a significant charge in less time."
     },
     {
-      question: "How long does it take to charge an EV?",
-      answer:
-        "The time it takes to charge an EV depends on the type of charging station and the battery capacity of the vehicle. A typical home charging station can charge a small EV in 8 to 10 hours, while a fast charging station can do it in less than an hour.",
+      "question": "What types of charging connectors are supported at CharjKaro?",
+      "answer": "CharjKaro Stations support a variety of connectors, and ensure compatibility with a wide range of electric vehicles available in the market."
     },
     {
-      question: "How much does it cost to charge an EV?",
-      answer:
-        "The cost of charging an EV depends on the type of charging station and the amount of electricity used. On-peak rates are typically higher than off-peak rates, so charging during off-peak hours can be more cost-effective.",
+      "question": "Can all electric vehicles be charged at a CharjKaro Station?",
+      "answer": "Yes, CharjKaro stations are designed to be compatible with all electric vehicles that adhere to industry-standard charging protocols. This includes popular electric car models from various manufacturers."
     },
     {
-      question: "How can I pay for electric car charging?",
-      answer:
-        "Many electric vehicle charging stations accept payment methods such as credit cards, mobile payments, or smartphone apps. Some also offer subscription plans for regular users.",
+      "question": "How do I locate CharjKaro stations?",
+      "answer": "You can easily find CharjKaro stations through our mobile app, website, or other navigation tools. We provide real-time information on station locations, availability, and compatible connectors."
     },
     {
-      question: "What powers electric car charging stations?",
-      answer:
-        "Electric car charging stations are powered by the electrical grid. They use a standard home electrical outlet for Level 1 charging and a special connector for Level 2 and DC Fast Charging.",
+      "question": "Is there a membership or subscription required to use CharjKaro stations?",
+      "answer": "While we offer membership plans for added benefits, our charging stations are also accessible for one-time users. You can pay for your charging session using our app or RFID cards for a hassle-free experience."
     },
     {
-      question: "How do I plan a trip with charge stops?",
-      answer:
-        "Planning a trip with charge stops involves finding charging stations along your route. Many online tools and apps can help you find charging stations and plan your route.",
+      "question": "What payment methods are accepted?",
+      "answer": "We accept various payment methods, including credit/debit cards and UID mobile payment options. Our user-friendly app provides a secure and convenient way to handle transactions."
     },
     {
-      question: "What are the different levels of EV charging?",
-      answer:
-        "There are three levels of EV charging: Level 1 (120V), Level 2 (240V), and DC Fast Charging (480V or higher). Each level offers a different range and charging speed.",
+      "question": "What safety measures are in place at CharjKaro stations?",
+      "answer": "Safety is the top priority. Our charging stations comply with industry safety standards, and we regularly perform maintenance checks. Additionally, we provide clear usage guidelines to ensure a safe charging experience for all users."
     },
     {
-      question: "How do home solar panels work for EV charging?",
-      answer:
-        "Home solar panels can be used to power an electric vehicle charging station. The solar panels convert sunlight into electricity, which can then be used to charge the vehicle.",
-    },
-    {
-      question: "What should I do if my EV is submerged in a flood?",
-      answer:
-        "If an electric vehicle is submerged in water, it should be turned off immediately to prevent any potential electrical shorts or damage to the vehicle's battery.",
-    },
-  ],
+      "question": "Do you offer customer support for any issues?",
+      "answer": "Yes, we have a dedicated customer support team to assist you with any issues. Call us on 9999113211 or use our app for quick assistance."
+    }
+  ]
+  ,
 };
 
 
@@ -81,7 +68,7 @@ const Faq = () => {
               <div className="collapse-title text-xl font-medium">
                 {faq.question}
               </div>
-              <div className="collapse-content">
+              <div className="collapse-content text-lg">
                 <p>{faq.answer}</p>
               </div>
             </div>

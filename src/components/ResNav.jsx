@@ -47,7 +47,7 @@ const Nav = () => {
               alt=""
               className=""
             />
-            <ul className="md:flex  justify-center gap-16 p-5 font-poppins font-semibold text-white">
+            <ul className="  justify-center gap-16 p-5 font-poppins font-semibold text-white">
               <li className="nav-link text-lg">
                 <Link to="/">Home</Link>
               </li>

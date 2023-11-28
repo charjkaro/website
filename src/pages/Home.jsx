@@ -98,7 +98,7 @@ const Card = ({ imageSrc, title, description }) => (
     </figure>
     <div className=" bg-transparent my-5">
       <h2 className="text-2xl my-2 font-semibold">{title}</h2>
-      <p className="text-[1.11rem] my-2 font-medium text-[#333333]">{description}</p>
+      <p className="text-[1.11rem] my-2 font-medium text-white">{description}</p>
     </div>
   </div>
 );
@@ -137,8 +137,7 @@ const AppAdvantages = () => (
           alt=""
           className="w-[15rem]  h-[15rem] absolute -right-[5rem] -bottom-20 z-40"
         />
-        <img src="" alt="" />
-        <img src="" alt="" />
+        
       </div>
     </div>
   </div>
@@ -194,7 +193,7 @@ const Home = () => {
 
       <div
         data-aos="fade-up"
-        className="rounded-3xl font-poppins bg-blue-600 py-10 text-center  text-white md:p-10 bg-[url('https://images.pngnice.com/download/2007/Graphic-Elements-Transparent-Background.png')] bg-cover"
+        className="rounded-3xl font-poppins  py-10 text-center  text-white md:p-10 bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover"
       >
         <h1 className=" pb-10 text-4xl font-bold">CHARJKARO APP</h1>
         <p className="px-10 text-xl">
@@ -218,12 +217,12 @@ const Home = () => {
       <div
         id="technology"
         data-aos="fade-up"
-        className="flex-col items-center font-poppins justify-center rounded-3xl   py-10   md:p-20 bg-[#aab69a] "
+        className="flex-col items-center font-poppins justify-center rounded-3xl   py-10   md:p-20 bg-[#36aa4a] text-white "
       >
-        <h1 className="pb-10 text-center text-4xl font-bold text-blue-600 ">
+        <h1 className="pb-2 text-center text-4xl font-bold text-white ">
           What We Offer
         </h1>
-        <div className="mx-5  justify-evenly gap-6 md:flex flex-wrap">
+        <div className="mx-5  justify-evenly gap-6 flex flex-wrap">
           {cards.map((card, index) => (
             <Card key={index} {...card} />
           ))}
@@ -233,7 +232,9 @@ const Home = () => {
         <h1 className="text-4xl text-gray-400 py-10 p-5">
           Types of EV Charging Station
         </h1>
-        <div className="flex justify-center gap-10 flex-wrap ">
+        <div className="carousel w-full">
+  <div id="slider1" className="carousel-item relative w-full">
+  <div className="flex justify-center gap-10 flex-wrap w-full">
           <img
             src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
             alt=""
@@ -260,6 +261,138 @@ const Home = () => {
             className="md:h-36 h-20"
           />
         </div>
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slider4" className="btn btn-circle">❮</a> 
+      <a href="#slider2" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slider2" className="carousel-item relative w-full">
+  <div className="flex justify-center gap-10 flex-wrap w-full ">
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+        </div>
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slider1" className="btn btn-circle">❮</a> 
+      <a href="#slider3" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slider3" className="carousel-item relative w-full">
+  <div className="flex justify-center gap-10 flex-wrap w-full ">
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+        </div>
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slider2" className="btn btn-circle">❮</a> 
+      <a href="#slider4" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slider4" className="carousel-item relative w-full">
+  <div className="flex justify-center gap-10 flex-wrap w-full ">
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+        </div>
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slider3" className="btn btn-circle">❮</a> 
+      <a href="#slider1" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
+        {/* <div className="flex justify-center gap-10 flex-wrap ">
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+          <img
+            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
+            alt=""
+            className="md:h-36 h-20"
+          />
+        </div> */}
       </div>
       <Footer />
     </div>

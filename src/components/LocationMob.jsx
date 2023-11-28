@@ -9,7 +9,7 @@ const LocationMob = () => {
     {
       image:
         "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
-      address: "Adchini",
+      address: "Adchini, Saket",
       stations: "300+ EV Charging Stations",
     },
     {
@@ -72,13 +72,13 @@ const LocationMob = () => {
   return (
     <div
       id="location"
-      className="flex items-center justify-center h-screen md:hidden my-10"
+      className="flex items-center justify-center h-screen md:hidden my-24"
     >
-      <div className="flex-col items-center justify-center rounded-3xl bg-[#e2eed1] py-10 text-center font-poppins ">
-        <h1 className="pb-10 text-4xl font-bold text-blue-600">
+      <div className="flex-col items-center justify-center rounded-3xl bg-[#36aa4a] py-10 text-center font-poppins ">
+        <h1 className="pb-10 text-4xl font-bold text-white">
           CHARJKARO STATION LOCATION
         </h1>
-        <p className="px-10 text-left text-base md:text-center">
+        <p className="px-10 text-left text-base md:text-center text-white">
           CharjKaro has a network of 300+ EV Charging Stations spread across
           Delhi. Presenting a chain of reliable charging options in Delhi
         </p>
@@ -94,7 +94,7 @@ const LocationMob = () => {
                   style={{ backgroundImage: `url(${location.image})` }}
                 ></div>
               </figure>
-              <div className="card-body">
+              <div className="card-body text-center">
                 <h2 className="card-title text-2xl font-bold text-blue-500">
                   {location.address}
                 </h2>

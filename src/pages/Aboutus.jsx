@@ -53,7 +53,7 @@ const Aboutus = () => {
 
         <div
           data-aos="fade-up"
-          className="m- py-20 rounded-3xl bg-blue-600 p-5 text-center text-white md:px-20 bg-[url('https://images.pngnice.com/download/2007/Graphic-Elements-Transparent-Background.png')] bg-cover   "
+          className="m- py-20 rounded-3xl bg-blue-600 p-5 text-center text-white md:px-20 bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover   "
         >
           <h1 className="mb-5 text-4xl font-font-bold md:text-5xl">
             Our Beliefs

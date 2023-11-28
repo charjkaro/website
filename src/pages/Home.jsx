@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -10,7 +10,6 @@ import Navbar from "../components/Navbar";
 import LocationInfo from "../components/LocationInfo";
 import Test from "./Test";
 import LocationMob from "../components/LocationMob";
-
 
 const advantages = [
   {
@@ -134,20 +133,25 @@ const Home = () => {
   }, []);
 
   const { hash } = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (hash === "#advantages") {
       const element = document.getElementById("advantages");
       element.scrollIntoView({ behavior: "smooth" });
+      navigate("/", { replace: true });
     } else if (hash === "#location") {
       const element = document.getElementById("location");
       element.scrollIntoView({ behavior: "smooth" });
+      navigate("/", { replace: true });
     } else if (hash === "#technology") {
       const element = document.getElementById("technology");
       element.scrollIntoView({ behavior: "smooth" });
+      navigate("/", { replace: true });
     } else if (hash === "#partner") {
       const element = document.getElementById("partner");
       element.scrollIntoView({ behavior: "smooth" });
+      navigate("/", { replace: true });
     }
   }, [hash]);
 
@@ -174,7 +178,7 @@ const Home = () => {
         </p>
       </div>
       <LocationInfo />
-      <LocationMob />
+      <LocationMob id="location" />
 
       <div
         data-aos="fade-up"
@@ -214,10 +218,8 @@ const Home = () => {
         </div>
       </div>
       <div id="partner" className="text-center pb-20 ">
-        <h1 className="text-4xl text-gray-400 py-10 p-5">
-          Our Partners
-        </h1>
-        
+        <h1 className="text-4xl text-gray-400 py-10 p-5">Our Partners</h1>
+
         <div className="flex justify-center md:gap-20 gap-10 flex-wrap grayscale opacity-75 ">
           <img
             src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
@@ -239,7 +241,6 @@ const Home = () => {
             alt=""
             className="md:h-32 w-auto h-20"
           />
-          
         </div>
       </div>
       <Footer />

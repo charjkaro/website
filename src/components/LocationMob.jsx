@@ -1,4 +1,4 @@
-const LocationMob = () => {
+const LocationMob = ({id}) => {
   const locations = [
     {
       image:
@@ -71,10 +71,10 @@ const LocationMob = () => {
 
   return (
     <div
-      id="location"
+      id={id}
       className="flex items-center justify-center h-screen md:hidden my-24"
     >
-      <div className="flex-col items-center justify-center rounded-3xl bg-[#36aa4a] py-10 text-center font-poppins ">
+      <div  className="flex-col items-center justify-center rounded-3xl bg-[#36aa4a] py-10 text-center font-poppins ">
         <h1 className="pb-10 text-4xl font-bold text-white">
           CHARJKARO STATION LOCATION
         </h1>

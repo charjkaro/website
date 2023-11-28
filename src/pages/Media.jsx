@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Blog from "../components/Blog";
 
 const CardM = ({ day, title, para, img1, img2, img3, img4, colour }) => {
   return (
@@ -47,15 +48,14 @@ const Media = () => {
       <Navbar />
       {/* ///////////////////////// */}
       <h1 className="my-4 text-center font-poppins text-5xl font-bold text-black">
-              CHARJKARO AT REEVE 2023
-            </h1>
+        CHARJKARO AT REEVE 2023
+      </h1>
       <div className="carousel w-full overflow-hidden">
         <div id="slide1" className="carousel-item relative w-full">
           <div
             data-aos="fade-left"
-            className="m- flex-col items-center justify-center rounded-xl bg-blue-500 py-10"
+            className="m- flex-col items-center justify-center rounded-xl bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover py-10"
           >
-            
             <CardM
               colour="white"
               img1="https://i.ibb.co/yWFPbvX/13.jpg"
@@ -132,10 +132,19 @@ const Media = () => {
             </a>
           </div>
         </div>
-        
       </div>
 
       {/* ///////////////// */}
+
+      {/* blog */}
+      
+        <Blog
+          title="Blog1"
+          link="http://localhost:5173/media#slide3"
+          para="lorem ipsum"
+          img="https://i1.sndcdn.com/visuals-000088628213-hye8Vt-t1240x260.jpg"
+        />
+       
 
       <Footer />
     </div>

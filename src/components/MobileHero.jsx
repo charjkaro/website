@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
-const MobileHero = () => {
+const MobileHero = ({Title, img, subTitle}) => {
   return (
     <div>
       {/* <div className="w-[100vw] bg-blue-500 bg-[url('https://i.ibb.co/tpYN7xL/shutterstock-750610873.jpg')]  bg-cover h-[40vh]">
@@ -14,13 +14,13 @@ const MobileHero = () => {
         </div>
       </div> */}
       <div className="relative md:hidden ">
-        <img src="https://i.ibb.co/tpYN7xL/shutterstock-750610873.jpg" alt="" className="brightness-50 h-80" />
+        <img src={img} alt="" className="brightness-50 h-80" />
         <div className="absolute bottom-6 pl-5 ">
           <h4 className="text-4xl font-semibold text-white my-3">
-            Our Actions impact the future
+            {Title}
           </h4>
-          <p className="text-xl font-semibold text-white">
-            Let's challenge and be committed to a clean and green environment.
+          <p className="text-xl font-medium text-white">
+            {subTitle}
           </p>
         </div>
       </div>

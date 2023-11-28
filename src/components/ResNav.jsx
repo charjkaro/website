@@ -56,35 +56,33 @@ const Nav = () => {
                 <Link to="/about">About Us</Link>
               </li>
 
-              <hr className="py-1"/>
+              <hr className="py-1" />
               <li className="nav-link text-lg">
                 <Link to="/#advantages">Advantage</Link>
               </li>
-              <hr className="py-1"/>
+              <hr className="py-1" />
               <li className="nav-link text-lg">
-                <Link>Partner</Link>
+                <Link to="/#partner">Partner</Link>
               </li>
-              <hr className="py-1"/>
+              <hr className="py-1" />
               <li className="nav-link text-lg">
                 <Link to="/#location">Charging Station</Link>
               </li>
-              <hr className="py-1"/>
+              <hr className="py-1" />
               <li className="nav-link text-lg">
                 <Link to="/#technology">Technology</Link>
               </li>
-              <hr className="py-1"/>
-              <li className="nav-link text-lg">
-                <Link>Clients</Link>
-              </li>
-              <hr className="py-1"/>
+              
+
+              <hr className="py-1" />
               <li className="nav-link text-lg">
                 <Link to="/media">Media</Link>
               </li>
-              <hr className="py-1"/>
+              <hr className="py-1" />
               <li className="nav-link text-lg">
                 <Link to="/faq">FAQs</Link>
               </li>
-              <hr className="py-1"/>
+              <hr className="py-1" />
               <li className="nav-link text-lg">
                 <Link to="/contact">Contact</Link>
               </li>

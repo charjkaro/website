@@ -10,7 +10,6 @@ import Navbar from "../components/Navbar";
 import LocationInfo from "../components/LocationInfo";
 import Test from "./Test";
 import LocationMob from "../components/LocationMob";
-import Nav from "../components/ResNav";
 
 
 const advantages = [
@@ -75,17 +74,15 @@ const cards = [
 ];
 
 const Card = ({ imageSrc, title, description }) => (
-  
-  <div
-    data-aos="fade-down"
-    className="card w-80   my-10"
-  >
+  <div data-aos="fade-down" className="card w-80   my-10">
     <figure>
       <img src={imageSrc} alt="car!" className="h-80 w-80" />
     </figure>
     <div className=" bg-transparent my-5">
       <h2 className="text-2xl my-2 font-semibold">{title}</h2>
-      <p className="text-[1.11rem] my-2 font-medium text-white">{description}</p>
+      <p className="text-[1.11rem] my-2 font-medium text-white">
+        {description}
+      </p>
     </div>
   </div>
 );
@@ -124,7 +121,6 @@ const AppAdvantages = () => (
           alt=""
           className="w-[15rem]  h-[15rem] absolute -right-[5rem] -bottom-20 z-40"
         />
-        
       </div>
     </div>
   </div>
@@ -149,14 +145,16 @@ const Home = () => {
     } else if (hash === "#technology") {
       const element = document.getElementById("technology");
       element.scrollIntoView({ behavior: "smooth" });
+    } else if (hash === "#partner") {
+      const element = document.getElementById("partner");
+      element.scrollIntoView({ behavior: "smooth" });
     }
   }, [hash]);
 
   return (
     <div className="font-poppins">
       <Navbar />
-      
-      
+
       <Test />
 
       <div
@@ -215,171 +213,34 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className="text-center pb-20 ">
+      <div id="partner" className="text-center pb-20 ">
         <h1 className="text-4xl text-gray-400 py-10 p-5">
-          Types of EV Charging Station
+          Our Partners
         </h1>
-        <div className="carousel w-full">
-  <div id="slider1" className="carousel-item relative w-full">
-  <div className="flex justify-center gap-10 flex-wrap w-full">
+        
+        <div className="flex justify-center md:gap-20 gap-10 flex-wrap grayscale opacity-75 ">
           <img
             src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
             alt=""
-            className="md:h-36 h-20"
+            className="md:h-32 w-auto h-20"
+          />
+          <img
+            src="https://technosolent.com/uploads/media/9.png"
+            alt=""
+            className="md:h-32 w-auto h-20"
+          />
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/63d13e0c40f3902347869bee/04f18a3f-1959-4b27-84ec-915661d804c2/crest+3d_white+logo.png?format=1500w"
+            alt=""
+            className="md:h-32 w-auto invert h-20"
           />
           <img
             src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
             alt=""
-            className="md:h-36 h-20"
+            className="md:h-32 w-auto h-20"
           />
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
+          
         </div>
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slider4" className="btn btn-circle">❮</a> 
-      <a href="#slider2" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slider2" className="carousel-item relative w-full">
-  <div className="flex justify-center gap-10 flex-wrap w-full ">
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-        </div>
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slider1" className="btn btn-circle">❮</a> 
-      <a href="#slider3" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slider3" className="carousel-item relative w-full">
-  <div className="flex justify-center gap-10 flex-wrap w-full ">
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-        </div>
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slider2" className="btn btn-circle">❮</a> 
-      <a href="#slider4" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slider4" className="carousel-item relative w-full">
-  <div className="flex justify-center gap-10 flex-wrap w-full ">
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-        </div>
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slider3" className="btn btn-circle">❮</a> 
-      <a href="#slider1" className="btn btn-circle">❯</a>
-    </div>
-  </div>
-</div>
-        {/* <div className="flex justify-center gap-10 flex-wrap ">
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-36 h-20"
-          />
-        </div> */}
       </div>
       <Footer />
     </div>

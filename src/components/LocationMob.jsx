@@ -108,6 +108,10 @@ const LocationMob = () => {
             </div>
           ))}
         </div>
+        <div className="flex justify-center">
+
+          <img src="https://i.ibb.co/JF9FFwy/swipe.png" alt="" className="w-20 invert" />
+        </div>
       </div>
     </div>
   );

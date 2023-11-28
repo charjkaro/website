@@ -17,7 +17,7 @@ const Hero = () => {
     >
       <div className="md:mr-4 md:w-1/2">
         <div className="mb-4 translate-x-10 font-poppins text-xl font-semibold md:text-6xl">
-          OUR ACTIONS IMPACT THE FUTURE!
+          OUR ACTIONS IMPACT <br /> THE FUTURE!
         </div>
         <div className="text-lg md:text-xl translate-x-10">
           Let's challenge and be committed to a clean and green environment.

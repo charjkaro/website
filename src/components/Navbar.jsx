@@ -98,7 +98,7 @@ const Navbar = () => {
           >
             Advantage
           </Link>
-          <Link className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
+          <Link to="/#partner" className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
             Partner
           </Link>
           <Link
@@ -114,9 +114,7 @@ const Navbar = () => {
           >
             Technology
           </Link>
-          <Link className="-   block - - rounded-xl hover:text-black text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
-            Clients
-          </Link>
+         
 
           <Link
             to="/media"

@@ -38,7 +38,10 @@ const LocationInfo = () => {
 
   return (
     <div>
-      <div id="location" className="hidden md:flex flex-col items-center justify-center rounded-3xl bg-[#36aa4a] py-10 text-center font-poppins ">
+      <div
+        id="location"
+        className="hidden md:flex flex-col items-center justify-center rounded-3xl bg-[#36aa4a] py-10 text-center font-poppins "
+      >
         <h1 className="pb-2 pt-10 text-4xl font-bold text-white">
           CHARJKARO STATION LOCATION
         </h1>
@@ -62,7 +65,7 @@ const LocationInfo = () => {
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg49p1ch1U08LqvkvJ_EyKTg30KXe0XgUfRg&usqp=CAU"
                     alt="Shoes"
-                    className="rounded-xl h-36"
+                    className="rounded-xl h-32"
                   />
                 </figure>
 

@@ -75,20 +75,7 @@ const cards = [
 ];
 
 const Card = ({ imageSrc, title, description }) => (
-  // <div
-  //   data-aos="fade-down"
-  //   className="card mb-10 transform rounded-xl border-2 border-gray-500 bg-white p-4 shadow-lg backdrop-blur-md transition-transform duration-500 hover:scale-105 md:w-[50rem] "
-  // >
-  //   <div className="card w-96 glass">
-  //     <figure>
-  //       <img src={imageSrc} alt={title} />
-  //     </figure>
-  //     <div className="card-body">
-  //       <h2 className="card-title">{title}</h2>
-  //       <p>{description}</p>
-  //     </div>
-  //   </div>
-  // </div>
+  
   <div
     data-aos="fade-down"
     className="card w-80   my-10"

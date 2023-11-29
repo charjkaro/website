@@ -3,9 +3,18 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 import Endcard from "../components/Endcard";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
+    <>
+        <Helmet>
+        <title>CharjKaro</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link rel="canonical" href="https://charjkaro.com/contact" />
+
+      </Helmet>
     <div>
       <Navbar />
       <div className="m-8 my-10 text-center font-poppins text-5xl font-semibold text-blue-600">
@@ -56,6 +65,8 @@ const Contact = () => {
 
       <Footer />
     </div>
+    
+    </>
   );
 };
 

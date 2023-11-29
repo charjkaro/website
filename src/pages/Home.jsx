@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
 
 import { useEffect } from "react";
@@ -10,6 +12,7 @@ import Navbar from "../components/Navbar";
 import LocationInfo from "../components/LocationInfo";
 import Test from "./Test";
 import LocationMob from "../components/LocationMob";
+import { Helmet } from "react-helmet";
 
 const advantages = [
   {
@@ -73,13 +76,13 @@ const cards = [
 ];
 
 const Card = ({ imageSrc, title, description }) => (
-  <div data-aos="fade-down" className="card w-80   my-10">
+  <div data-aos="fade-down" className="card w-80   my-5">
     <figure>
-      <img src={imageSrc} alt="car!" className="h-80 w-80" />
+      <img src={imageSrc} alt="car!" className="h-80 w-80 rounded-b-xl" />
     </figure>
     <div className=" bg-transparent my-5">
       <h2 className="text-2xl my-2 font-semibold">{title}</h2>
-      <p className="text-[1.11rem] my-2 font-medium text-white">
+      <p className="text-md text-justify my-2 font-medium text-white">
         {description}
       </p>
     </div>
@@ -104,22 +107,10 @@ const AppAdvantages = () => (
           <Advantage key={index} {...advantage} />
         ))}
       </div>
-      <div className="relative md:flex hidden">
-        <img
-          src="https://i.ibb.co/fdVmkD4/shutterstock-1154629684.jpg"
-          alt=""
-          className="w-[25rem] h-[25rem] relative -right-80  z-10"
-        />
-        <img
-          src="https://i.ibb.co/Jtqtj7P/stock-photo-new-indian-currency-rupees-notes-for-background-2327818595.jpg"
-          alt=""
-          className="w-[20rem]  h-[20rem] absolute right-[3rem] bottom-9 z-30 "
-        />
-        <img
-          src="https://i.ibb.co/drXd0mp/shutterstock-354369467.jpg"
-          alt=""
-          className="w-[15rem]  h-[15rem] absolute -right-[5rem] -bottom-20 z-40"
-        />
+      <div className="relative md:flex hidden" loading="lazy">
+        <div className="w-[25rem] h-[25rem] relative -right-80  z-10 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/CAM%20A8506T01.JPG?alt=media&token=a5d75750-7661-4df1-bcfb-720559672325')] bg-cover bg-center"></div>
+        <div className="w-[20rem]  h-[20rem] absolute right-[3rem] bottom-9 z-30 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/CAM%20A8510T01.JPG?alt=media&token=d5ecb403-549e-48e9-8998-a44772470335')] bg-cover bg-center"></div>
+        <div className="w-[15rem]  h-[15rem] absolute -right-[5rem] -bottom-20 z-40 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/CAM%20A8542T01.JPG?alt=media&token=3ddd7233-7e06-4b36-b390-80883f16d368')] bg-cover bg-center"></div>
       </div>
     </div>
   </div>
@@ -156,108 +147,122 @@ const Home = () => {
   }, [hash]);
 
   return (
-    <div className="font-poppins">
-      <Navbar />
+    <>
+      <Helmet>
+        <title>EV Charging Stations in India | CharjKaro</title>
+        <meta
+          name="description"
+          content="Revolutionize your EV experience with CharjKaro! Explore seamless power, efficiency, and sustainability in our cutting-edge EV charging stations."
+        />
+        <meta
+          name="keywords"
+          content="ev charging station, ev charging station near me, ev car charging station, ev charging station india, ev vehicle charging station, fast charging station for ev, charging station near me ev, ev charging station locator"
+        />
+        <link rel="canonical" href="https://charjkaro.com/" />
+      </Helmet>
+      <div className="font-poppins">
+        <Navbar />
 
-      <Test />
+        <Test />
 
-      <div
-        data-aos="fade-up"
-        className=" my- text-center  md:p-20 font-poppins "
-      >
-        <h1 className="pb-10 text-4xl font-bold text-blue-600">
-          SUSTAINABILITY – THE NEW BUZZ WORD
-        </h1>
-        <p className="px-10 text-left text-xl md:text-center">
-          At CharjKaro, we're at the forefront of the Electric Vehicle (EV)
-          Revolution, offering a one-stop solution for all your EV charging
-          needs. Our mission is to make electric mobility accessible,
-          convenient, and affordable for everyone. Whether you're a seasoned EV
-          driver or new to the world of electric vehicles, CharjKaro has you
-          covered.
-        </p>
-      </div>
-      <LocationInfo />
-      <LocationMob id="location" />
+        <div
+          data-aos="fade-up"
+          className="  text-center  md:p-20 font-poppins px-5 "
+        >
+          <h1 className="pb-10 text-3xl md:text-4xl font-bold text-blue-600">
+            SUSTAINABILITY – THE NEW BUZZ WORD
+          </h1>
+          <p className="px-10 text-left md:text-xl text-lg md:text-center">
+            At CharjKaro, we're at the forefront of the Electric Vehicle (EV)
+            Revolution, offering a one-stop solution for all your EV charging
+            needs. Our mission is to make electric mobility accessible,
+            convenient, and affordable for everyone. Whether you're a seasoned
+            EV driver or new to the world of electric vehicles, CharjKaro has
+            you covered.
+          </p>
+        </div>
+        <LocationInfo />
+        <LocationMob id="location" />
 
-      <div
-        data-aos="fade-up"
-        className="rounded-3xl font-poppins  py-10 text-center  text-white md:p-10 bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover bg-center"
-      >
-        <h1 className=" pb-10 text-4xl font-bold">CHARJKARO APP</h1>
-        <p className="px-10 text-xl">
-          Download our Mobile App. and get started. Make your payments and book
-          your Station Bay in advance.
-        </p>
-        <div className=" m-10 flex justify-center gap-5 text-black">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://play.google.com/store/apps/details?id=com.charjkaro&pcampaignid=web_share"
-          >
+        <div
+          data-aos="fade-up"
+          className=" font-poppins  py-10 text-center  text-white md:p-10 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/ground.png?alt=media&token=4ad5b176-5662-4baa-80cd-9e59af8f20cb')] bg-cover bg-center"
+        >
+          <h1 className=" pb-10 text-4xl font-bold">CHARJKARO APP</h1>
+          <p className="px-10 text-xl">
+            Download our Mobile App. and get started. Make your payments and
+            book your Station Bay in advance.
+          </p>
+          <div className=" m-10 flex justify-center gap-5 text-black">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://play.google.com/store/apps/details?id=com.charjkaro&pcampaignid=web_share"
+            >
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Google_Play_Store_badge_EN.svg.webp?alt=media&token=f3bc5c3b-27bd-4616-91bb-4adcae92ed07"
+                alt=""
+                className="md:w-44 w-32 transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90 "
+              />
+            </a>
+
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://apps.apple.com/in/app/charjkaro/id6456938758"
+            >
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Download_on_the_App_Store_Badge.svg.png?alt=media&token=f618cd54-3001-4847-8938-e87a4a5c7898"
+                alt=""
+                className="md:w-44 w-32 transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90"
+              />
+            </a>
+          </div>
+        </div>
+        <AppAdvantages />
+        <div
+          id="technology"
+          data-aos="fade-up"
+          className="flex-col items-center font-poppins justify-center rounded-3xl   py-10   md:p-20 bg-[#36aa4a] bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/imgonline-com-ua-ReplaceColor-yEYGrpRdQ4jaSp.png?alt=media&token=e9a4fa71-8283-4592-9f71-a7f0debb7a41')] bg-cover bg-center  text-white "
+        >
+          <h1 className="pb-2 text-center text-4xl font-bold text-white ">
+            What We Offer
+          </h1>
+          <div className="mx-5  justify-evenly md:gap-6 flex flex-wrap">
+            {cards.map((card, index) => (
+              <Card key={index} {...card} />
+            ))}
+          </div>
+        </div>
+        <div id="partner" className="text-center pb-20 ">
+          <h1 className="text-4xl text-gray-400 py-10 p-5">Our Partners</h1>
+
+          <div className="flex justify-center md:gap-20 gap-10 flex-wrap ">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1200px-Google_Play_Store_badge_EN.svg.png"
+              src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/smcd.png?alt=media&token=b932c250-9187-4c54-9968-960085894b6e"
               alt=""
-              className="md:w-44 w-32 transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90 "
+              className="md:h-36  h-20"
             />
-          </a>
-
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://apps.apple.com/in/app/charjkaro/id6456938758"
-          >
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/640px-Download_on_the_App_Store_Badge.svg.png"
+              src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/crest%2B3d_white%2Blogo.png?alt=media&token=4f3b3ce5-a6ab-4daa-809a-d51a615b9fb1"
               alt=""
-              className="md:w-44 w-32 transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90"
+              className="md:h-36  invert h-20 "
             />
-          </a>
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/1645291697-BECIL.png?alt=media&token=eaf4e522-7ff7-4de4-b08a-cce8d7694a9b"
+              alt=""
+              className="md:h-36  h-20 "
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/9.png?alt=media&token=22eff73a-d573-440e-b231-571268e59fd3"
+              alt=""
+              className="md:h-36 h-20 "
+            />
+          </div>
         </div>
+        <Footer />
       </div>
-      <AppAdvantages />
-      <div
-        id="technology"
-        data-aos="fade-up"
-        className="flex-col items-center font-poppins justify-center rounded-3xl   py-10   md:p-20 bg-[#36aa4a] bg-[url('https://i.ibb.co/qdbqgWq/imgonline-com-ua-Replace-Color-y-EYGrp-Rd-Q4ja-Sp.png')] bg-cover bg-center  text-white "
-      >
-        <h1 className="pb-2 text-center text-4xl font-bold text-white ">
-          What We Offer
-        </h1>
-        <div className="mx-5  justify-evenly gap-6 flex flex-wrap">
-          {cards.map((card, index) => (
-            <Card key={index} {...card} />
-          ))}
-        </div>
-      </div>
-      <div id="partner" className="text-center pb-20 ">
-        <h1 className="text-4xl text-gray-400 py-10 p-5">Our Partners</h1>
-
-        <div className="flex justify-center md:gap-20 gap-10 flex-wrap grayscale opacity-75 ">
-          <img
-            src="https://mcdonline.nic.in/sdmcportal/static/images/SDMC/Dairy/smcd.png"
-            alt=""
-            className="md:h-32 w-auto h-20"
-          />
-          <img
-            src="https://technosolent.com/uploads/media/9.png"
-            alt=""
-            className="md:h-32 w-auto h-20"
-          />
-          <img
-            src="https://images.squarespace-cdn.com/content/v1/63d13e0c40f3902347869bee/04f18a3f-1959-4b27-84ec-915661d804c2/crest+3d_white+logo.png?format=1500w"
-            alt=""
-            className="md:h-32 w-auto invert h-20"
-          />
-          <img
-            src="https://path24x7.com/1413914p@th24x7@dmin/post_images/1645291697-BECIL.png"
-            alt=""
-            className="md:h-32 w-auto h-20"
-          />
-        </div>
-      </div>
-      <Footer />
-    </div>
+    </>
   );
 };
 

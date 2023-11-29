@@ -52,9 +52,9 @@ const LocationInfo = () => {
       
       <div
         id="location"
-        className="hidden md:flex flex-col items-center justify-center rounded-3xl bg-[url('https://i.ibb.co/qdbqgWq/imgonline-com-ua-Replace-Color-y-EYGrp-Rd-Q4ja-Sp.png')] bg-cover bg-center bg-[#36aa4a] py-10 text-center font-poppins " loading="lazy"
+        className="hidden lg:flex flex-col items-center justify-center rounded-3xl bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/imgonline-com-ua-ReplaceColor-yEYGrpRdQ4jaSp.png?alt=media&token=e9a4fa71-8283-4592-9f71-a7f0debb7a41')] bg-cover bg-center bg-[#36aa4a] py-10 text-center font-poppins " loading="lazy"
       >
-        <h1 className="pb-2 pt-10 text-4xl font-bold text-white">
+        <h1 className="pb-2 pt-10 md:text-4xl text-2xl  font-bold text-white">
           CHARJKARO STATION LOCATION
         </h1>
         <p className="px-10 text-left text-lg md:text-center text-white">
@@ -63,7 +63,7 @@ const LocationInfo = () => {
         </p>
         <div className="flex justify-center items-center px-36 my-10">
           <img
-            src="https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png"
+            src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/delhi-city-maps.jpg?alt=media&token=e2f7f3c3-2a73-4218-a56e-dfe84f604101"
             alt=""
             className="mr h-[30rem] w-2/3 rounded-3xl"
             loading="lazy"
@@ -76,7 +76,7 @@ const LocationInfo = () => {
               >
                 <figure className="px- pt-10">
                   <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg49p1ch1U08LqvkvJ_EyKTg30KXe0XgUfRg&usqp=CAU"
+                    src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/images.png?alt=media&token=ec004657-e762-42a3-8d59-892f24f50b2a"
                     alt="Shoes"
                     className="rounded-xl h-32"
                   />

@@ -12,12 +12,12 @@ const Footer = () => {
    };
 
   return (
-    <div className="  bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover bg-center">
+    <div className="  bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/ground.png?alt=media&token=4ad5b176-5662-4baa-80cd-9e59af8f20cb')] bg-cover bg-center">
       <div className="md:px-30 justify-between rounded-3xl rounded-b-none bg-[url('')] bg-cover bg-no-repeat p-10 font-poppins text-white md:flex">
         <img
-          src="https://i.ibb.co/TmvGCJV/logowhite-removebg-preview.png"
+          src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/logowhite-removebg-preview.png?alt=media&token=2f63e764-5a4c-474a-a081-5c234e2bf01d"
           alt=""
-          className="  md:w-[15rem ] md:h-[15rem]"
+          className="  md:w-[15rem ] md:h-[15rem] "
         />
         <div className="flex flex-col items-start">
           <p className="py-2 text-3xl font-bold">Contact info</p>
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="md:w-1/4">
-          <p className="my-5 text-2xl font-bold">Newsletter signup</p>
+          <p className=" text-2xl font-bold">Newsletter signup</p>
           <form onSubmit={handleSubmit} className="md:w-48 w-full">
             <input
               type="text"

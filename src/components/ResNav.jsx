@@ -43,7 +43,7 @@ const Nav = () => {
             onClick={() => document.getElementById("my_modal_2").close()}
           >
             <img
-              src="https://i.ibb.co/chSxRVS/no-bg-logo.png"
+              src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/no-bg-logo.png?alt=media&token=afcc0834-b6e6-4545-9d3b-26f993572e5e"
               alt=""
               className=""
             />

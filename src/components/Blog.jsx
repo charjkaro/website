@@ -2,13 +2,13 @@
 
 const Blog = ({title, img, para, link}) => {
   return (
-    <div className="flex items-center p-10">
-        <img src={img} alt="" className="w-[30rem]" />
-        <div className="p-5">
-            <h1 className="my-3 text-bold font-poppins text-4xl">{title}</h1>
-            <p className=" font-poppins text-lg" >{para} </p>
+    <div className="md:flex items-start md:p-10 mb-10">
+        <img src={img} alt="" className="w-[30rem] rounded-2xl" />
+        <div className="md:px-10">
+            <h1 className="mb-3 text-bold font-poppins md:text-4xl text-2xl">{title}</h1>
+            <p className=" font-poppins md:text-md text-base py-5" >{para} </p>
             <a href={link}>
-            <button className="btn">Check out</button>
+            <button className="btn bg-blue-500 text-white px-10">Check out </button>
             </a>
             
         </div>

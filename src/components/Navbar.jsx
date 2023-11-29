@@ -81,7 +81,7 @@ const Navbar = () => {
       <div className="md:flex items-center justify-between md:px-10 - border-b-2 border-gray-300 hidden ">
         <div className="">
           <img
-            src="https://i.ibb.co/chSxRVS/no-bg-logo.png"
+            src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/no-bg-logo.png?alt=media&token=afcc0834-b6e6-4545-9d3b-26f993572e5e"
             alt=""
             className="w-36"
           />
@@ -102,7 +102,7 @@ const Navbar = () => {
           <Nav />
           <div className="navbar-center">
             <img
-              src="https://i.ibb.co/chSxRVS/no-bg-logo.png"
+              src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/no-bg-logo.png?alt=media&token=afcc0834-b6e6-4545-9d3b-26f993572e5e"
               alt=""
               className="w-36"
             />

@@ -16,7 +16,7 @@ const ContactForm = () => {
   };
   return (
     <div>
-      <div className="form p-10 md:p-20 bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover bg-center rounded-3xl m-2">
+      <div className="form p-10 md:p-20 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/ground.png?alt=media&token=4ad5b176-5662-4baa-80cd-9e59af8f20cb')] bg-cover bg-center rounded-3xl m-2">
         <h1 className="py-10 text-center font-poppins text-6xl font-semibold text-white ">
           Contact us
         </h1>

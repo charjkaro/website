@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Endcard from "../components/Endcard";
+import { Helmet } from "react-helmet";
 
 const json = {
   FAQs: [
@@ -56,6 +57,14 @@ const Faq = () => {
     });
   }, []);
   return (
+    <>
+        <Helmet>
+        <title>CharjKaro</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link rel="canonical" href="https://charjkaro.com/faq" />
+
+      </Helmet>
     <div className="">
       <Navbar />
       <div className="container mx-auto px-4">
@@ -81,6 +90,7 @@ const Faq = () => {
 
       <Footer />
     </div>
+    </>
   );
 };
 

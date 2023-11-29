@@ -87,7 +87,7 @@ const Aboutus = () => {
               refueling.
             </p>
           </div>
-          <div className="mt-10">
+          <div className="mt-10 font-poppins">
             <div className="flex items-center">
               <div className="h-[1px] w-full bg-white"></div>
               <h2 className="mb-2 text-2xl font-semifont-bold px-2">Values</h2>
@@ -108,15 +108,15 @@ const Aboutus = () => {
                   technology and forward-thinking
                 </p>
                 <p className="mb-4 ">
-                  <span className="font-bold">User Focus:</span> Our users' needs
-                  drive our solutions.
+                  <span className="font-bold">User Focus:</span> Our users'
+                  needs drive our solutions.
                 </p>
                 <p className="mb-4 ">
                   <span className="font-bold">Reliability:</span> Users can
                   depend on us for consistent service.
                 </p>
               </div>
-              <div>
+              <div  className="mx-4">
                 <p className="mb-4 ">
                   <span className="font-bold">Transparency:</span> Honesty in
                   operations and pricing is our priority.{" "}
@@ -162,17 +162,17 @@ const Aboutus = () => {
         <h1 className="text-center text-5xl font-semifont-bold text-blue-600">
           Leadership
         </h1>
-        <div className="my-10  justify-center gap-5 md:flex ">
-          <div className="h-56 w-[100%] bg-[url('https://i.ibb.co/3F1PPLf/mr-amit-kapoor.jpg')] bg-cover  md:h-44 md:w-44"></div>
-          <div data-aos="fade-left" className="mt-10 md:w-1/2">
-            <h1 className="font-poppins text-xl font-font-bold text-gray-600">
+        <div className="my-10 justify-center gap-5 md:flex items-end">
+          <div className="h-56 w-full md:w-44 bg-[url('https://i.ibb.co/3F1PPLf/mr-amit-kapoor.jpg')] bg-cover bg-center md:h-44"></div>
+          <div data-aos="fade-left" className="mt-5 md:mt-0 md:w-1/2">
+            <h1 className="font-poppins text-xl font-bold text-gray-600 mb-2">
               AMIT KAPOOR
             </h1>
             <p className="font-poppins text-md text-gray-600">
               Amit Kapoor set up US Advertising Agency in the year 2000. The
               company involved itself in the communication for brands across
               sectors such as fashion, media & entertainment, banking &
-              financial, automobiles, political and the Government. He is known
+              financial, automobiles, political, and the Government. He is known
               to be a focused entrepreneur who, in the last 20 years, has been
               able to successfully spearhead a Rs. 500 crore business, which has
               been recognized as the most valuable company in the sphere of OOH
@@ -182,23 +182,24 @@ const Aboutus = () => {
 
         <div
           data-aos="fade-left"
-          className="my-10  justify-center gap-5 md:flex  "
+          className="my-10 justify-center gap-5 md:flex "
         >
-          <div className="h-56 w-[100%]  bg-[url('https://i.ibb.co/ZzDKQh7/Screenshot-2023-10-18-at-4-44-31-PM.png')] bg-cover md:h-44 md:w-44"></div>
-          <div className="mt-10 md:w-1/2">
-            <h1 className="font-poppins text-xl font-font-bold text-gray-600">
+          <div className="h-56 w-full md:w-44 bg-[url('https://i.ibb.co/ZzDKQh7/Screenshot-2023-10-18-at-4-44-31-PM.png')] bg-cover bg-center md:h-44"></div>
+          <div className="mt-5 md:mt-0 md:w-1/2">
+            <h1 className="font-poppins text-xl font-bold text-gray-600 mb-2">
               RAGHU KHANNA
             </h1>
             <p className="font-poppins text-md text-gray-600">
-              An engineering graduate from IIT Guwahati, who ventured out into
-              transit advertising nine years ago with his company, CASHurDRIVE.
-              The company deals in advertisements of various brands on radio
-              taxis like Mega, Meru, Easy, Tabcabs etc., a kind of a sub-branch
-              of outdoor advertisement. Today, his company is a name to reckon
-              with in Transit advertising.
+              A graduate from IIT Guwahati, he delved into transit advertising
+              with CASHurDRIVE nine years ago. Specializing in ads on radio
+              taxis like Mega, Meru, Easy, Tabcabs, it's a sub-branch of outdoor
+              advertising. Today, his company is a recognized name in Transit
+              advertising, standing out for its innovative strategies.
             </p>
           </div>
         </div>
+
+       
       </div>
 
       <Footer />

@@ -1,4 +1,16 @@
+import { db } from "../../config/firebase";
+import { collection, addDoc } from "firebase/firestore";
+
 const Footer = () => {
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const todoRef = collection(db, "newsletter");
+    await addDoc(todoRef, {
+      item: event.target.email.value, // Corrected here
+    });
+    event.target.reset();
+   };
+
   return (
     <div className="  bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover bg-center">
       <div className="md:px-30 justify-between rounded-3xl rounded-b-none bg-[url('')] bg-cover bg-no-repeat p-10 font-poppins text-white md:flex">
@@ -12,7 +24,6 @@ const Footer = () => {
 
           <div className="py-2">
             <p className="text-2xl font-bold">Call us</p>
-           
             <a href="tel:+91112345678">+91-11-234-5678</a> <br />
             <a href="tel:+91112345678">+91-11-234-5678</a>
           </div>
@@ -30,10 +41,13 @@ const Footer = () => {
         </div>
         <div className="md:w-1/4">
           <p className="my-5 text-2xl font-bold">Newsletter signup</p>
-          <form action="" className="md:w-48 w-full">
+          <form onSubmit={handleSubmit} className="md:w-48 w-full">
             <input
               type="text"
               placeholder="Email"
+              
+              name="email"
+              required
               className="block w-[100%] rounded border border-gray-300 bg-transparent p-2"
             />
             <button

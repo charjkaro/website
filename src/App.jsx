@@ -6,6 +6,8 @@ import Faq from "./pages/Faq";
 import Media from "./pages/Media";
 import Test from "./pages/Test";
 
+
+
 const App = () => {
   return (
     <div className="overflow-x-hidden">

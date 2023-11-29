@@ -182,7 +182,7 @@ const Home = () => {
 
       <div
         data-aos="fade-up"
-        className="rounded-3xl font-poppins  py-10 text-center  text-white md:p-10 bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover"
+        className="rounded-3xl font-poppins  py-10 text-center  text-white md:p-10 bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover bg-center"
       >
         <h1 className=" pb-10 text-4xl font-bold">CHARJKARO APP</h1>
         <p className="px-10 text-xl">
@@ -190,23 +190,36 @@ const Home = () => {
           your Station Bay in advance.
         </p>
         <div className=" m-10 flex justify-center gap-5 text-black">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1200px-Google_Play_Store_badge_EN.svg.png"
-            alt=""
-            className="md:w-44 w-32"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/640px-Download_on_the_App_Store_Badge.svg.png"
-            alt=""
-            className="md:w-44 w-32"
-          />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://play.google.com/store/apps/details?id=com.charjkaro&pcampaignid=web_share"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1200px-Google_Play_Store_badge_EN.svg.png"
+              alt=""
+              className="md:w-44 w-32 transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90 "
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://apps.apple.com/in/app/charjkaro/id6456938758"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/640px-Download_on_the_App_Store_Badge.svg.png"
+              alt=""
+              className="md:w-44 w-32 transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90"
+            />
+          </a>
         </div>
       </div>
       <AppAdvantages />
       <div
         id="technology"
         data-aos="fade-up"
-        className="flex-col items-center font-poppins justify-center rounded-3xl   py-10   md:p-20 bg-[#36aa4a] text-white "
+        className="flex-col items-center font-poppins justify-center rounded-3xl   py-10   md:p-20 bg-[#36aa4a] bg-[url('https://i.ibb.co/qdbqgWq/imgonline-com-ua-Replace-Color-y-EYGrp-Rd-Q4ja-Sp.png')] bg-cover bg-center  text-white "
       >
         <h1 className="pb-2 text-center text-4xl font-bold text-white ">
           What We Offer

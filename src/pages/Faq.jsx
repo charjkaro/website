@@ -75,7 +75,10 @@ const Faq = () => {
           ))}
         </div>
       </div>
-      <Endcard title="Still have a Question ?  " />
+      <Endcard title="Still have a Question ?"
+       location="contact"
+       />
+
       <Footer />
     </div>
   );

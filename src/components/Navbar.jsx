@@ -14,34 +14,68 @@ const Navbar = () => {
       <div className="md:flex items-center justify-evenly bg-blue-600 p-1 text-white hidden">
         <div className="gap-10 md:flex">
           <h1 className="font-">Soho 930 New Delhi, India</h1>
-          <h1 className="font-">Info@chargekaro.com</h1>
+          <h1 className="font-">
+            <a href="mailto:info@charjkaro.com">
+              <p>info@charjkaro.com</p>
+            </a>
+          </h1>
         </div>
         <div className="flex gap-2 invert">
-          <img
-            src="https://cdn1.iconfinder.com/data/icons/bootstrap-fill-vol-2/16/meta-512.png"
-            className="w-6 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-            alt=""
-          />
-          <img
-            src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-256.png"
-            className="w-6 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-            alt=""
-          />
-          <img
-            src="https://cdn4.iconfinder.com/data/icons/social-icons-16/512/LinkedIn_alt-512.png"
-            className="w-6 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-            alt=""
-          />
-          <img
-            src="https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-256.png"
-            className="w-6 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-            alt=""
-          />
-          <img
-            src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-256.png"
-            className="w-6 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-            alt=""
-          />
+          <a
+            href=" https://www.facebook.com/profile.php?id=100093408431168"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              src="https://cdn1.iconfinder.com/data/icons/bootstrap-fill-vol-2/16/meta-512.png"
+              className="w-6 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+              alt=""
+            />
+          </a>
+          <a
+            href=" https://www.instagram.com/_charjkaro_/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-256.png"
+              className="w-6 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+              alt=""
+            />
+          </a>
+          <a
+            href=" https://www.linkedin.com/company/96009890/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/social-icons-16/512/LinkedIn_alt-512.png"
+              className="w-6 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://twitter.com/charjkaro"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              src="https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-256.png"
+              className="w-6 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCUDXyzulIrLaMbV6v9_iJyA"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-256.png"
+              className="w-6 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+              alt=""
+            />
+          </a>
         </div>
       </div>
       <div className="md:flex items-center justify-between md:px-10 - border-b-2 border-gray-300 hidden ">
@@ -59,13 +93,12 @@ const Navbar = () => {
           <br />
           <span className="text-xl font-bold text-blue-600">
             {" "}
-            +91-11-345-5789
+            <a href="tel:+91112345678">+91-11-234-5678</a>
           </span>
         </div>
       </div>
       <div className="">
         <div className="navbar bg-base-100  lg:hidden ">
-         
           <Nav />
           <div className="navbar-center">
             <img
@@ -79,7 +112,6 @@ const Navbar = () => {
         <ul
           className={`$ hidden justify-center gap-10 p-5  font-bold text-blue-600 lg:flex font-poppins`}
         >
-         
           <Link
             to="/"
             className="  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
@@ -98,7 +130,10 @@ const Navbar = () => {
           >
             Advantage
           </Link>
-          <Link to="/#partner" className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95">
+          <Link
+            to="/#partner"
+            className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+          >
             Partner
           </Link>
           <Link
@@ -114,7 +149,6 @@ const Navbar = () => {
           >
             Technology
           </Link>
-         
 
           <Link
             to="/media"

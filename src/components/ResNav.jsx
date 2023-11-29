@@ -66,7 +66,7 @@ const Nav = () => {
               </li>
               <hr className="py-1" />
               <li className="nav-link text-lg">
-                <Link to="/#location">Charging Station</Link>
+                <Link to="/#partner">Charging Station</Link>
               </li>
               <hr className="py-1" />
               <li className="nav-link text-lg">

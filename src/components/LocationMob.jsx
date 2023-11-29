@@ -1,80 +1,81 @@
 const LocationMob = ({id}) => {
   const locations = [
     {
-      image:
-        "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
+      image: "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
       address: "Vasant Vihar, Outer Ring Road",
       stations: "300+ EV Charging Stations",
+      link: "https://maps.app.goo.gl/g2GegxK6Vz6kPQUr8",
     },
     {
-      image:
-        "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
+      image: "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
       address: "Adchini, Saket",
       stations: "300+ EV Charging Stations",
+      link: "https://maps.app.goo.gl/GL1AqMNRVocaR7rV9",
     },
     {
-      image:
-        "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
+      image: "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
       address: "RK Puram Sangam Cinema",
       stations: "300+ EV Charging Stations",
+      link: "https://maps.app.goo.gl/EJRZbjJE8BeQHN4G8",
     },
     {
-      image:
-        "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
+      image: "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
       address: "Andheriya Mod",
       stations: "300+ EV Charging Stations",
+      link: "https://maps.app.goo.gl/wxpypV1NzYkuWtzz5",
     },
     {
-      image:
-        "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
+      image: "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
       address: "Siri Fort Auditorium",
       stations: "300+ EV Charging Stations",
+      link: "https://maps.app.goo.gl/1D92Lrj6W7RFbsTt5",
     },
     {
-      image:
-        "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
+      image: "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
       address: "Near GK 1 Nala",
       stations: "300+ EV Charging Stations",
+      link: "https://maps.app.goo.gl/p4syWB1b2kCuotr19",
     },
     {
-      image:
-        "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
+      image: "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
       address: "Saket, Select City Walk",
       stations: "300+ EV Charging Stations",
+      link: "https://maps.app.goo.gl/NCrf7Y3dtpW87aGBA",
     },
     {
-      image:
-        "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
+      image: "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
       address: "Qutub minar",
       stations: "300+ EV Charging Stations",
+      link: "https://maps.app.goo.gl/ACDsmNpAUdZu3sKaA",
     },
     {
-      image:
-        "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
+      image: "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
       address: "Khel Gaon, Malviya Nagar",
       stations: "300+ EV Charging Stations",
+      link: "https://maps.app.goo.gl/ciF8HHpj2nKZ5FgZ6",
     },
     {
-      image:
-        "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
+      image: "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
       address: "LSR College",
       stations: "300+ EV Charging Stations",
+      link: "https://maps.app.goo.gl/BjyNLwqDahkoyAyr5",
     },
     {
-      image:
-        "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
+      image: "https://i.ibb.co/fDRc89d/Screenshot-2023-10-17-at-12-43-21-PM.png",
       address: "RTR Marg",
       stations: "300+ EV Charging Stations",
+      link: "https://maps.app.goo.gl/KoeA6nH2YgAcdKbo9",
     },
     // Add more location objects as needed
   ];
+  
 
   return (
     <div
       id={id}
       className="flex items-center justify-center h-screen md:hidden my-24"
     >
-      <div  className="flex-col items-center justify-center rounded-3xl bg-[#36aa4a] py-10 text-center font-poppins ">
+      <div  className="flex-col items-center justify-center rounded-3xl bg-[url('https://i.ibb.co/qdbqgWq/imgonline-com-ua-Replace-Color-y-EYGrp-Rd-Q4ja-Sp.png')] bg-cover bg-center py-10 text-center font-poppins ">
         <h1 className="pb-10 text-4xl font-bold text-white">
           CHARJKARO STATION LOCATION
         </h1>
@@ -102,7 +103,7 @@ const LocationMob = ({id}) => {
                   {location.stations}
                 </p>
                 <div className="card-actions justify-center">
-                  <button className="btn btn-primary">Find Out</button>
+                  <a href={location.link} target="_blank" rel="noreferrer" className="btn btn-primary" >Find Out</a>
                 </div>
               </div>
             </div>

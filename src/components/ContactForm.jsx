@@ -1,9 +1,7 @@
-
-
 const ContactForm = () => {
   return (
     <div>
-      <div className="form p-10 md:p-20 bg-blue-600 rounded-3xl m-2">
+      <div className="form p-10 md:p-20 bg-[url('https://i.ibb.co/0qBZwqg/ground.png')] bg-cover bg-center rounded-3xl m-2">
         <h1 className="py-10 text-center font-poppins text-6xl font-semibold text-white ">
           Contact us
         </h1>

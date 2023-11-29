@@ -1,14 +1,7 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import Nav from "./ResNav";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <div className="font-poppins   ">
       <div className="md:flex items-center justify-evenly bg-blue-600 p-1 text-white hidden">

@@ -56,7 +56,7 @@ const Media = () => {
 
       </Helmet>
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* ///////////////////////// */}
       <h1 className="my-4 text-center font-poppins text-5xl font-bold text-blue-600">
         CHARJKARO AT REEVE 2023
@@ -169,7 +169,7 @@ const Media = () => {
        
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
     </>
   );

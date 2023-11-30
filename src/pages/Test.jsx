@@ -1,10 +1,10 @@
-import Hero from "../components/Hero";
-import MobileHero from "../components/MobileHero";
+
+import GoodCarousel from '../components/GoodCarousel'
 
 const Test = () => {
   return (
     <div>
-      <div className="carousel w-full">
+      {/* <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <Hero
             Title="CharjKaro. It is the new Charge Brigade"
@@ -165,7 +165,8 @@ const Test = () => {
             5
           </a>
         </div>
-      </div>
+      </div> */}
+      <GoodCarousel />
     </div>
   );
 };

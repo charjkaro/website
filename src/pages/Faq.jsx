@@ -66,7 +66,7 @@ const Faq = () => {
 
       </Helmet>
     <div className="">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container mx-auto px-4">
         <div className="my-10 p-5">
           <h1 className="mb-5 text-4xl font-bold">FAQs</h1>
@@ -88,7 +88,7 @@ const Faq = () => {
        location="contact"
        />
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
     </>
   );

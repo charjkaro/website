@@ -21,13 +21,13 @@ const Aboutus = () => {
         <link rel="canonical" href="https://charjkaro.com/about" />
       </Helmet>
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="">
           <div className="my-10  min-h-[40vh] items-center justify-center gap-5 p-10 md:flex">
             <div data-aos="fade-left" className="]">
               <img
                 src="           https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/no-bg-logo.png?alt=media&token=afcc0834-b6e6-4545-9d3b-26f993572e5e"
-                className="w-72"
+                className="w-72 "
                 alt=""
               />
             </div>
@@ -177,24 +177,6 @@ const Aboutus = () => {
           <h1 className="text-center text-5xl font-semifont-bold text-blue-600">
             Leadership
           </h1>
-          <div className="my-10 justify-center gap-5 md:flex items-end">
-            <div className="h-56 w-full md:w-44 bg-[url('https://i.ibb.co/3F1PPLf/mr-amit-kapoor.jpg')] bg-cover bg-center md:h-44"></div>
-            <div data-aos="fade-left" className="mt-5 md:mt-0 md:w-1/2">
-              <h1 className="font-poppins text-xl font-bold text-gray-600 mb-2">
-                AMIT KAPOOR
-              </h1>
-              <p className="font-poppins text-md text-gray-600">
-                Amit Kapoor set up US Advertising Agency in the year 2000. The
-                company involved itself in the communication for brands across
-                sectors such as fashion, media & entertainment, banking &
-                financial, automobiles, political, and the Government. He is
-                known to be a focused entrepreneur who, in the last 20 years,
-                has been able to successfully spearhead a Rs. 500 crore
-                business, which has been recognized as the most valuable company
-                in the sphere of OOH
-              </p>
-            </div>
-          </div>
 
           <div
             data-aos="fade-left"
@@ -212,11 +194,83 @@ const Aboutus = () => {
                 outdoor advertising. Today, his company is a recognized name in
                 Transit advertising, standing out for its innovative strategies.
               </p>
+              <div className="flex gap-2 pt-2">
+                
+               
+                <a
+                  href=" https://in.linkedin.com/in/raghukhanna"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn4.iconfinder.com/data/icons/social-icons-16/512/LinkedIn_alt-512.png"
+                    className="w-8 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="https://twitter.com/raghukhanna?lang=en"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-256.png"
+                    className="w-8 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                    alt=""
+                  />
+                </a>
+                
+              </div>
+            </div>
+          </div>
+          <div className="my-10 justify-center gap-5 md:flex ">
+            <div className="h-56 w-full md:w-44 bg-[url('https://i.ibb.co/3F1PPLf/mr-amit-kapoor.jpg')] bg-cover bg-center md:h-44"></div>
+            <div data-aos="fade-left" className="mt-5 md:mt-0 md:w-1/2">
+              <h1 className="font-poppins text-xl font-bold text-gray-600 mb-2">
+                AMIT KAPOOR
+              </h1>
+              <p className="font-poppins text-md text-gray-600">
+                Amit Kapoor set up US Advertising Agency in the year 2000. The
+                company involved itself in the communication for brands across
+                sectors such as fashion, media & entertainment, banking &
+                financial, automobiles, political, and the Government. He is
+                known to be a focused entrepreneur who, in the last 20 years,
+                has been able to successfully spearhead a Rs. 500 crore
+                business, which has been recognized as the most valuable company
+                in the sphere of OOH
+              </p>
+              <div className="flex gap-2 pt-2">
+                
+               
+                <a
+                  href=" https://in.linkedin.com/in/amit-kapoor-84071a227"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn4.iconfinder.com/data/icons/social-icons-16/512/LinkedIn_alt-512.png"
+                    className="w-8 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="https://twitter.com/raghukhanna?lang=en"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-256.png"
+                    className="w-8 transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
+                    alt=""
+                  />
+                </a>
+                
+              </div>
             </div>
           </div>
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

@@ -13,6 +13,7 @@ const ContactForm = () => {
       message: event.target.message.value,
     });
     event.target.reset();
+    alert("Thank you!! We will Reach out to you soon")
   };
   return (
     <div>

@@ -7,12 +7,11 @@ import { useLocation, useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import LocationInfo from "../components/LocationInfo";
-import Test from "./Test";
+
 import LocationMob from "../components/LocationMob";
 import { Helmet } from "react-helmet";
+import GoodCarousel from '../components/GoodCarousel'
 
 const advantages = [
   {
@@ -161,9 +160,9 @@ const Home = () => {
         <link rel="canonical" href="https://charjkaro.com/" />
       </Helmet>
       <div className="font-poppins">
-        <Navbar />
+        {/* <Navbar /> */}
 
-        <Test />
+        <GoodCarousel />
 
         <div
           data-aos="fade-up"
@@ -260,7 +259,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

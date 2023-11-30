@@ -16,7 +16,7 @@ const Contact = () => {
 
       </Helmet>
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="m-8 my-10 text-center font-poppins text-5xl font-semibold text-blue-600">
         Follow Us on
         <div className=" mt-4 flex justify-around gap-4 md:px-40">
@@ -63,7 +63,7 @@ const Contact = () => {
         location="about"
       />
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
     
     </>

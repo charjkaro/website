@@ -9,7 +9,8 @@ const Footer = () => {
       item: event.target.email.value, // Corrected here
     });
     event.target.reset();
-   };
+    alert("Thank you for signing up for newsletter");
+  };
 
   return (
     <div className="  bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/ground.png?alt=media&token=4ad5b176-5662-4baa-80cd-9e59af8f20cb')] bg-cover bg-center">
@@ -45,7 +46,6 @@ const Footer = () => {
             <input
               type="text"
               placeholder="Email"
-              
               name="email"
               required
               className="block w-[100%] rounded border border-gray-300 bg-transparent p-2"
@@ -121,7 +121,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="py-4 text-center text-sm text-white">
-        © 2023 CharjKaro. All rights reserved.
+        © {new Date().getFullYear()} CharjKaro. All rights reserved.
       </p>
     </div>
   );

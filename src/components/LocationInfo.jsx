@@ -62,13 +62,14 @@ const LocationInfo = () => {
           Delhi. Presenting a chain of reliable charging options in Delhi
         </p>
         <div className="flex justify-center items-center px-36 my-10">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/delhi-city-maps.jpg?alt=media&token=e2f7f3c3-2a73-4218-a56e-dfe84f604101"
+          {/* <img
+            src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled%20design%20(3).webp?alt=media&token=cf6ed5e2-6d53-47d3-b351-c2ce4f23cde8"
             alt=""
-            className="mr h-[30rem] w-2/3 rounded-3xl object-contain"
+            className="mr h-[30rem] scale-[1.17] translate-x-16 w-2/3 rounded object-contain"
             loading="lazy"
-          />
-          <div className="w-96 carousel rounded-box">
+          /> */}
+          <div className="bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled%20design%20(3).webp?alt=media&token=cf6ed5e2-6d53-47d3-b351-c2ce4f23cde8')] h-[35rem] w-[90vw] flex justify-end p-10 bg-cover rounded-3xl  bg-center m-10">
+          <div className="w-96 carousel rounded-box flex justify-center">
             {locations.map((locations, index) => (
               <div
                 key={index}
@@ -78,7 +79,7 @@ const LocationInfo = () => {
                   <img
                     src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled_design__2_-removebg-preview.webp?alt=media&token=11f64028-c437-410c-8ca7-aa4d212339b4"
                     alt="Shoes"
-                    className="rounded-xl h-48"
+                    className="rounded-xl h-44"
                   />
                 </figure>
 
@@ -111,6 +112,8 @@ const LocationInfo = () => {
               </div>
             ))}
           </div>
+          </div>
+          
         </div>
       </div>
     </div>

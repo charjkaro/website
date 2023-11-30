@@ -73,11 +73,13 @@ const Navbar = () => {
       </div>
       <div className="md:flex items-center justify-between md:px-10 - border-b-2 border-gray-300 hidden ">
         <div className="">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/no-bg-logo.png?alt=media&token=afcc0834-b6e6-4545-9d3b-26f993572e5e"
-            alt=""
-            className="w-36"
-          />
+          <Link to="/">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/no-bg-logo.png?alt=media&token=afcc0834-b6e6-4545-9d3b-26f993572e5e"
+              alt=""
+              className="w-36"
+            />
+          </Link>
         </div>
         <div className="p-2 text-right ">
           <span className="text-lg font-bold text-green-600">
@@ -94,11 +96,13 @@ const Navbar = () => {
         <div className="navbar bg-base-100  lg:hidden ">
           <Nav />
           <div className="navbar-center">
-            <img
-              src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/no-bg-logo.png?alt=media&token=afcc0834-b6e6-4545-9d3b-26f993572e5e"
-              alt=""
-              className="w-36"
-            />
+            <Link to="/">
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/no-bg-logo.png?alt=media&token=afcc0834-b6e6-4545-9d3b-26f993572e5e"
+                alt=""
+                className="w-36"
+              />
+            </Link>
           </div>
           <div className="navbar-end"></div>
         </div>

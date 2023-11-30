@@ -107,7 +107,7 @@ const Aboutus = () => {
                 </h2>
                 <div className="h-[1px] w-full bg-white"></div>
               </div>
-              <div className="text-lg mt-2  justify-center text-left  md:flex md:text-left">
+              <div className="text-lg mt-2  justify-between text-left  md:flex md:text-left">
                 <div className="mx-4">
                   <p className="mb-4 ">
                     <span className="font-bold">Sustainability:</span> We're

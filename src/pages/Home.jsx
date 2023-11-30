@@ -236,7 +236,7 @@ const Home = () => {
         <div id="partner" className="text-center pb-20 ">
           <h1 className="text-4xl text-gray-400 py-10 p-5">Our Partners</h1>
 
-          <div className="flex md:justify-center justify-center md:gap-20 gap-10 flex-wrap ">
+          <div className="flex md:justify-center justify-center md:gap-20 gap-10 px-10 flex-wrap items-center ">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/smcd.png?alt=media&token=b932c250-9187-4c54-9968-960085894b6e"
               alt=""
@@ -253,9 +253,9 @@ const Home = () => {
               className="md:h-36  h-20 object-contain"
             />
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/9.png?alt=media&token=22eff73a-d573-440e-b231-571268e59fd3"
+              src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/HITES-removebg-preview.webp?alt=media&token=9429dbae-3faf-45cd-b820-b4bdf740b0f6"
               alt=""
-              className="md:h-36 h-20 object-contain"
+              className="md:h-52 h-36 "
             />
           </div>
         </div>

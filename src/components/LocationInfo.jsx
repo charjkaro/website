@@ -69,7 +69,7 @@ const LocationInfo = () => {
             loading="lazy"
           /> */}
           <div className="bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled%20design%20(3).webp?alt=media&token=cf6ed5e2-6d53-47d3-b351-c2ce4f23cde8')] h-[35rem] w-[90vw] flex justify-end p-10 bg-cover rounded-3xl  bg-center m-10">
-          <div className="w-96 carousel rounded-box flex justify-center">
+          <div className="w-96 carousel rounded-box flex justify-center shadow-2xl shadow-green-700">
             {locations.map((locations, index) => (
               <div
                 key={index}

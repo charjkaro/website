@@ -201,7 +201,7 @@ const Home = () => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Google_Play_Store_badge_EN.svg.webp?alt=media&token=f3bc5c3b-27bd-4616-91bb-4adcae92ed07"
                 alt=""
-                className="md:w-44 w-32 transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90 "
+                className="md:w-44 shadow-2xl shadow-black w-32 transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90 "
               />
             </a>
 
@@ -213,7 +213,7 @@ const Home = () => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Download_on_the_App_Store_Badge.svg.png?alt=media&token=f618cd54-3001-4847-8938-e87a4a5c7898"
                 alt=""
-                className="md:w-44 w-32 transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90"
+                className="md:w-44 w-32 shadow-2xl shadow-black transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90"
               />
             </a>
           </div>
@@ -234,7 +234,7 @@ const Home = () => {
           </div>
         </div>
         <div id="partner" className="text-center pb-20 ">
-          <h1 className="text-4xl text-gray-400 py-10 p-5">Our Partners</h1>
+          <h1 className="text-4xl text-blue-600 font-semibold  py-10 p-5">Our Partners</h1>
 
           <div className="flex md:justify-center justify-center md:gap-20 gap-10 px-10 flex-wrap items-center ">
             <img

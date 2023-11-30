@@ -98,7 +98,7 @@ const LocationMob = ({ id }) => {
  {locations.map((location, index) => (
   <div
     key={index}
-    className="card lg:card-side bg-base-100 shadow-xl mx-auto carousel-item -20 h-[28rem] w-80"
+    className="card  shadow-black lg:card-side bg-base-100  mx-auto carousel-item -20 h-[28rem] w-80"
   >
     <figure>
       <div

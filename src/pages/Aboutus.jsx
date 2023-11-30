@@ -181,7 +181,7 @@ const Aboutus = () => {
             data-aos="fade-left"
             className="my-10 justify-center gap-5 md:flex "
           >
-            <div className="h-56 w-full md:w-44 bg-[url('https://i.ibb.co/ZzDKQh7/Screenshot-2023-10-18-at-4-44-31-PM.png')] bg-cover bg-center md:h-44"></div>
+            <div className="h-64 w-full md:w-44 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/img-20231130-wa0000-656847af3364b.webp?alt=media&token=8d20dfe5-02a0-435b-bd8e-b28d7a7703eb')]  bg-cover   bg-no-repeat  md:h-44 "></div>
             <div className="mt-5 md:mt-0 md:w-1/2">
               <h1 className="font-poppins text-xl font-bold text-gray-600 mb-2">
                 RAGHU KHANNA
@@ -220,7 +220,7 @@ const Aboutus = () => {
             </div>
           </div>
           <div className="my-10 justify-center gap-5 md:flex ">
-            <div className="h-56 w-full md:w-44 bg-[url('https://i.ibb.co/3F1PPLf/mr-amit-kapoor.jpg')] bg-cover bg-center md:h-44"></div>
+            <div className="h-64 w-full md:w-44 bg-[url('https://i.ibb.co/3F1PPLf/mr-amit-kapoor.jpg')] bg-cover bg-center md:h-44"></div>
             <div data-aos="fade-left" className="mt-5 md:mt-0 md:w-1/2">
               <h1 className="font-poppins text-xl font-bold text-gray-600 mb-2">
                 AMIT KAPOOR

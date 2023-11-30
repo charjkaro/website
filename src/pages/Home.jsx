@@ -11,7 +11,7 @@ import LocationInfo from "../components/LocationInfo";
 
 import LocationMob from "../components/LocationMob";
 import { Helmet } from "react-helmet";
-import GoodCarousel from '../components/GoodCarousel'
+import GoodCarousel from "../components/GoodCarousel";
 
 const advantages = [
   {
@@ -53,20 +53,20 @@ const Advantage = ({ title, description }) => (
 const cards = [
   {
     imageSrc:
-      "https://i.ibb.co/QvpMzqn/stock-photo-new-delhi-india-june-indian-government-owned-electric-cars-are-being-charged-at-the-1993.jpg",
+      "https://images.pexels.com/photos/17748317/pexels-photo-17748317/free-photo-of-electric-car-charger.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     title: "DC001 CHARGER",
     description:
       "These chargers are perfect for fast charging all CCS2/S1, GB/T compatible vehicles, including Log9 batteries, Mahindra e-verito, Tata ACE, and Tata Tigor. They are available in single and dual gun floor-mounted models, so you can choose the one that best suits your needs.",
   },
   {
     title: "AC TYPE 2 CHARGER",
-    imageSrc: "https://i.ibb.co/1ZyY6J8/download.jpg",
+    imageSrc: "https://img.freepik.com/premium-vector/electric-scooter-charging-charge-station-electric-vehicle-concept-illustration_148087-249.jpg?w=360",
     description:
       "These chargers are available in a variety of power ratings (from 3.3kW to 22kW), are OCPP compatible, and easy to install, making them ideal for residential apartments, workplaces, and commercial purposes",
   },
   {
     imageSrc:
-      "https://i.ibb.co/R7M92Ct/stock-photo-new-delhi-india-june-electric-auto-rickshaws-or-e-auto-rickshaws-at-charging-station-in.jpg",
+      "https://i0.wp.com/emobilityplus.com/wp-content/uploads/2022/02/Fleely20kW-GBT-DC-Fast-Charging-Station-600x600-1.jpg?fit=600%2C600&ssl=1",
     title: "AC001 CHARGER",
     description:
       "This Charger comes with 3 industrial sockets of 3.3kW each and is suitable for charging 2-wheelers, 3-wheelers & 4-wheelers. This charger is certified by ARAI, OCPP compatible and best suitable for fleet (triple socket) charging.",
@@ -77,7 +77,7 @@ const cards = [
 const Card = ({ imageSrc, title, description }) => (
   <div data-aos="fade-down" className="card w-80   my-5">
     <figure>
-      <img src={imageSrc} alt="car!" className="h-80 w-80 rounded-b-xl" />
+      <img src={imageSrc} alt="car!" className="h-80 w-80 rounded-b-xl object-cover" />
     </figure>
     <div className=" bg-transparent my-5">
       <h2 className="text-2xl my-2 font-semibold">{title}</h2>
@@ -109,7 +109,7 @@ const AppAdvantages = () => (
       <div className="relative md:flex hidden" loading="lazy">
         <div className="w-[25rem] h-[25rem] relative -right-80  z-10 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/CAM%20A8506T01.JPG?alt=media&token=a5d75750-7661-4df1-bcfb-720559672325')] bg-cover bg-center"></div>
         <div className="w-[20rem]  h-[20rem] absolute right-[3rem] bottom-9 z-30 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/CAM%20A8510T01.JPG?alt=media&token=d5ecb403-549e-48e9-8998-a44772470335')] bg-cover bg-center"></div>
-        <div className="w-[15rem]  h-[15rem] absolute -right-[5rem] -bottom-20 z-40 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/CAM%20A8542T01.JPG?alt=media&token=3ddd7233-7e06-4b36-b390-80883f16d368')] bg-cover bg-center"></div>
+        <div className="w-[15rem]  h-[15rem] absolute -right-[5rem] -bottom-10 z-40 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/CAM%20A8542T01.JPG?alt=media&token=3ddd7233-7e06-4b36-b390-80883f16d368')] bg-cover bg-center"></div>
       </div>
     </div>
   </div>
@@ -166,12 +166,12 @@ const Home = () => {
 
         <div
           data-aos="fade-up"
-          className="  text-center  md:p-20 font-poppins px-5 "
+          className="  text-center  md:p-20 font-poppins px-5 my-10 "
         >
           <h1 className="pb-10 text-3xl md:text-4xl font-bold text-blue-600">
             SUSTAINABILITY – THE NEW BUZZ WORD
           </h1>
-          <p className="px-10 text-left md:text-xl text-lg md:text-center">
+          <p className="md:px-10 p-5 text-left md:text-xl text-lg md:text-center">
             At CharjKaro, we're at the forefront of the Electric Vehicle (EV)
             Revolution, offering a one-stop solution for all your EV charging
             needs. Our mission is to make electric mobility accessible,
@@ -236,26 +236,26 @@ const Home = () => {
         <div id="partner" className="text-center pb-20 ">
           <h1 className="text-4xl text-gray-400 py-10 p-5">Our Partners</h1>
 
-          <div className="flex justify-center md:gap-20 gap-10 flex-wrap ">
+          <div className="flex md:justify-center justify-center md:gap-20 gap-10 flex-wrap ">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/smcd.png?alt=media&token=b932c250-9187-4c54-9968-960085894b6e"
               alt=""
-              className="md:h-36  h-20"
+              className="md:h-36  h-20 object-contain"
             />
             <img
               src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/crest%2B3d_white%2Blogo.png?alt=media&token=4f3b3ce5-a6ab-4daa-809a-d51a615b9fb1"
               alt=""
-              className="md:h-36  invert h-20 "
+              className="md:h-36  invert h-20 object-contain"
             />
             <img
               src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/1645291697-BECIL.png?alt=media&token=eaf4e522-7ff7-4de4-b08a-cce8d7694a9b"
               alt=""
-              className="md:h-36  h-20 "
+              className="md:h-36  h-20 object-contain"
             />
             <img
               src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/9.png?alt=media&token=22eff73a-d573-440e-b231-571268e59fd3"
               alt=""
-              className="md:h-36 h-20 "
+              className="md:h-36 h-20 object-contain"
             />
           </div>
         </div>

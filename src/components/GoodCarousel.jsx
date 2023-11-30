@@ -43,44 +43,44 @@ export default function App() {
           <Hero
             Title="Steering toward a Greener Future
             "
-            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/shutterstock-750610873.jpg?alt=media&token=6d7356e4-fd27-49e2-a363-0418cfaa9b54"
+            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/3-656847aa004a9.webp?alt=media&token=748933b3-f58a-4896-beb0-ed080bc53d9f"
           />
           <MobileHero
             Title="Steering toward a Greener Future
             "
-            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/shutterstock-750610873.jpg?alt=media&token=6d7356e4-fd27-49e2-a363-0418cfaa9b54"
+            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/3-656847aa004a9.webp?alt=media&token=748933b3-f58a-4896-beb0-ed080bc53d9f"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Hero
             Title="The New Face Of Sustainability!"
-            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/shutterstock-750610873.jpg?alt=media&token=6d7356e4-fd27-49e2-a363-0418cfaa9b54"
+            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/4-656847ac334ac.webp?alt=media&token=7b552599-3421-450b-9d14-a80a20a34491"
           />
           <MobileHero
             Title="The New Face Of Sustainability!"
-            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/shutterstock-750610873.jpg?alt=media&token=6d7356e4-fd27-49e2-a363-0418cfaa9b54"
+            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/4-656847ac334ac.webp?alt=media&token=7b552599-3421-450b-9d14-a80a20a34491"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Hero
             Title="Live the Green Mobility"
-            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/shutterstock-750610873.jpg?alt=media&token=6d7356e4-fd27-49e2-a363-0418cfaa9b54"
+            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/5-656847ae63d29.webp?alt=media&token=c3beba4c-a923-4d15-ac1e-f6ae0e5bc052"
           />
           <MobileHero
             Title="Live the Green Mobility"
-            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/shutterstock-750610873.jpg?alt=media&token=6d7356e4-fd27-49e2-a363-0418cfaa9b54"
+            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/5-656847ae63d29.webp?alt=media&token=c3beba4c-a923-4d15-ac1e-f6ae0e5bc052"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Hero
             Title="Charge Ahead with CharjKaro
             "
-            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/shutterstock-750610873.jpg?alt=media&token=6d7356e4-fd27-49e2-a363-0418cfaa9b54"
+            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/1.webp?alt=media&token=e9769cd1-137e-49d8-925c-9461e820baee"
           />
           <MobileHero
             Title="Charge Ahead with CharjKaro
             "
-            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/shutterstock-750610873.jpg?alt=media&token=6d7356e4-fd27-49e2-a363-0418cfaa9b54"
+            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/1.webp?alt=media&token=e9769cd1-137e-49d8-925c-9461e820baee"
           />
         </SwiperSlide>
         

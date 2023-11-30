@@ -65,7 +65,7 @@ const LocationInfo = () => {
           <img
             src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/delhi-city-maps.jpg?alt=media&token=e2f7f3c3-2a73-4218-a56e-dfe84f604101"
             alt=""
-            className="mr h-[30rem] w-2/3 rounded-3xl"
+            className="mr h-[30rem] w-2/3 rounded-3xl object-contain"
             loading="lazy"
           />
           <div className="w-96 carousel rounded-box">
@@ -76,9 +76,9 @@ const LocationInfo = () => {
               >
                 <figure className="px- pt-10">
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/images.png?alt=media&token=ec004657-e762-42a3-8d59-892f24f50b2a"
+                    src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled_design__2_-removebg-preview.webp?alt=media&token=11f64028-c437-410c-8ca7-aa4d212339b4"
                     alt="Shoes"
-                    className="rounded-xl h-32"
+                    className="rounded-xl h-48"
                   />
                 </figure>
 

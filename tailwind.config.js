@@ -5,8 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["HelveticaNeue", "sans-serif"],
-        avenir: ["Open Sans", "sans-serif"],
+       
         poppins: ["Poppins", "sans-serif"],
       },
     },

@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useEffect } from "react";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
@@ -195,8 +194,6 @@ const Aboutus = () => {
                 Transit advertising, standing out for its innovative strategies.
               </p>
               <div className="flex gap-2 pt-2">
-                
-               
                 <a
                   href=" https://in.linkedin.com/in/raghukhanna"
                   rel="noopener noreferrer"
@@ -219,7 +216,6 @@ const Aboutus = () => {
                     alt=""
                   />
                 </a>
-                
               </div>
             </div>
           </div>
@@ -240,8 +236,6 @@ const Aboutus = () => {
                 in the sphere of OOH
               </p>
               <div className="flex gap-2 pt-2">
-                
-               
                 <a
                   href=" https://in.linkedin.com/in/amit-kapoor-84071a227"
                   rel="noopener noreferrer"
@@ -264,7 +258,6 @@ const Aboutus = () => {
                     alt=""
                   />
                 </a>
-                
               </div>
             </div>
           </div>

@@ -101,12 +101,12 @@ const AppAdvantages = () => (
       CHARJKARO – ADVANTAGES
     </h1>
     <div className="flex">
-      <div className="list-none flex-col md:w-[40%]  ">
+      <div className="list-none flex-col lg:w-[40%]   ">
         {advantages.map((advantage, index) => (
           <Advantage key={index} {...advantage} />
         ))}
       </div>
-      <div className="relative md:flex hidden" loading="lazy">
+      <div className="relative lg:flex hidden" loading="lazy">
         <div className="w-[25rem] h-[25rem] relative -right-80  z-10 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/CAM%20A8506T01.JPG?alt=media&token=a5d75750-7661-4df1-bcfb-720559672325')] bg-cover bg-center"></div>
         <div className="w-[20rem]  h-[20rem] absolute right-[3rem] bottom-9 z-30 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/CAM%20A8510T01.JPG?alt=media&token=d5ecb403-549e-48e9-8998-a44772470335')] bg-cover bg-center"></div>
         <div className="w-[15rem]  h-[15rem] absolute -right-[5rem] -bottom-10 z-40 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/CAM%20A8542T01.JPG?alt=media&token=3ddd7233-7e06-4b36-b390-80883f16d368')] bg-cover bg-center"></div>
@@ -166,7 +166,7 @@ const Home = () => {
 
         <div
           data-aos="fade-up"
-          className="  text-center  md:p-20 font-poppins px-5 my-10 "
+          className="  text-center  lg:p-20 font-poppins px-5 my-10 "
         >
           <h1 className="pb-10 text-3xl md:text-4xl font-bold text-blue-600">
             SUSTAINABILITY – THE NEW BUZZ WORD
@@ -180,6 +180,7 @@ const Home = () => {
             you covered.
           </p>
         </div>
+        <div className="text-white" id="location" >.</div>
         <LocationInfo />
         <LocationMob id="location" />
 

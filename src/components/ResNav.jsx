@@ -42,12 +42,14 @@ const Nav = () => {
             className="modal-box bg-gray-950 py-20 rounded-lg shadow-lg max-h-[150vh] "
             onClick={() => document.getElementById("my_modal_2").close()}
           >
-            <div className="bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled%20design%20(1).png?alt=media&token=620fe06b-6770-41d3-8258-f53e657f6b45')] bg-cover bg-center w-30 h-32"></div>
-            <img
-              src=""
-              alt=""
-              className=""
-            />
+            <div className="bg-[url('')] bg-cover bg-center flex justify-center">
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled%20design%20(1).png?alt=media&token=620fe06b-6770-41d3-8258-f53e657f6b45"
+                alt=""
+                className="w-64"
+              />
+            </div>
+            <img src="" alt="" className="" />
             <ul className="  justify-center gap-16 p-5 font-poppins font-semibold text-white">
               <li className="nav-link text-lg">
                 <Link to="/">Home</Link>
@@ -67,7 +69,7 @@ const Nav = () => {
               </li>
               <hr className="py-1" />
               <li className="nav-link text-lg">
-                <Link to="/#partner">Charging Station</Link>
+                <Link to="/#location">Charging Station</Link>
               </li>
               <hr className="py-1" />
               <li className="nav-link text-lg">

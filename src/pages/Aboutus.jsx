@@ -181,7 +181,7 @@ const Aboutus = () => {
             data-aos="fade-left"
             className="my-10 justify-center gap-5 md:flex "
           >
-            <div className="h-64 w-full md:w-44 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/img-20231130-wa0000-656847af3364b.webp?alt=media&token=8d20dfe5-02a0-435b-bd8e-b28d7a7703eb')]  bg-cover   bg-no-repeat  md:h-44 "></div>
+            <div className="h-64 w-full md:w-44 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/31a79262-05ac-4c6e-979d-5a7572e7d49b%20(1).png?alt=media&token=66de948d-1736-470a-9208-3203ab25ebe9')]  bg-center bg-cover  bg-no-repeat  md:h-44 "></div>
             <div className="mt-5 md:mt-0 md:w-1/2">
               <h1 className="font-poppins text-xl font-bold text-gray-600 mb-2">
                 RAGHU KHANNA

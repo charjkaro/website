@@ -13,8 +13,8 @@ const MobileHero = ({Title, img, subTitle}) => {
           </p>
         </div>
       </div> */}
-      <div className="relative md:hidden ">
-        <img src={img} alt="" className="brightness-50 h-80" />
+      <div className="relative md:hidden w-[100vw]  ">
+        <img src={img} alt="" className="brightness-50 h-80 w-[100vw] object-cover" />
         <div className="absolute bottom-6 pl-5 ">
           <h4 className="text-4xl font-semibold text-white my-3">
             {Title}

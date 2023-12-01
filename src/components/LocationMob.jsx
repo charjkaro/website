@@ -84,7 +84,7 @@ const LocationMob = ({ id }) => {
   return (
     <div
       id={id}
-      className="flex items-center justify-center h-screen lg:hidden my-24"
+      className="flex items-center justify-center lg:h-screen lg:hidden lg:my-24"
     >
       <div id="locationadd" className="flex-col items-center justify-center rounded-3xl bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/imgonline-com-ua-ReplaceColor-yEYGrpRdQ4jaSp.png?alt=media&token=e9a4fa71-8283-4592-9f71-a7f0debb7a41')] bg-cover bg-center py-10 text-center font-poppins ">
         <h1 className="pb-10 text-4xl font-bold text-white">

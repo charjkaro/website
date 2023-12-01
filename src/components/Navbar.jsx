@@ -71,7 +71,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-      <div className="md:flex items-center justify-between md:px-10 - border-b-2 border-gray-300 hidden ">
+      <div className="lg:flex items-center justify-between md:px-10 - border-b-2 border-gray-300 hidden ">
         <div className="">
           <Link to="/">
             <img

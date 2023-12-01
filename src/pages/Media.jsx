@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 const CardM = ({ day, title, para, img1, img2, img3, img4, colour }) => {
   return (
     <div
-      className={`flex items-center text-${colour} mx-auto h-full w-full justify-center font-poppins md:w-2/3`}
+      className={`flex items-center text-${colour} mx-auto h-full w-full justify-center font-poppins lg:w-2/3`}
     >
       <div data-aos="fade-up" className="">
         <div className="m-2 mb-2  w-full md:flex">
@@ -164,7 +164,7 @@ const Media = () => {
             img="https://images.squarespace-cdn.com/content/v1/5f3b08d4515c242514c95656/3c455949-4d1a-4d46-93c4-e70a702e9dde/Picture1.jpg?format=1500w"
           />
         </div>
-        <div className="md:p-20 p-5 py-5"></div>
+       
 
         {/* <Footer /> */}
       </div>

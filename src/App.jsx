@@ -11,7 +11,10 @@ import Footer from "./components/Footer";
 
 
 
+
 const App = () => {
+  
+
   return (
     <div className="overflow-x-hidden">
       <Navbar />
@@ -21,6 +24,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/media" element={<Media />} />
+        <Route path="*" element={<Home/>} />
       
       </Routes>
       <Footer />

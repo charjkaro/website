@@ -14,9 +14,26 @@ const Aboutus = () => {
   return (
     <>
       <Helmet>
-        <title>CharjKaro</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title> About CharjKaro | EV Charging Leaders</title>
+        <meta
+          name="description"
+          content="Discover CharjKaro's journey as pioneers in EV vehicle charging. Leading the charge for a sustainable future.
+"
+        />
+        <meta
+          name="keywords"
+          content="ev charging station,
+ev charging station near me,
+ev car charging station,
+ev charging station india,
+ev vehicle charging station,
+fast charging station for ev,
+charging station near me ev,
+ev charging station locator,
+charjkaro, charge karo, 
+
+"
+        />
         <link rel="canonical" href="https://charjkaro.com/about" />
       </Helmet>
       <div>

@@ -60,7 +60,8 @@ const cards = [
   },
   {
     title: "AC TYPE 2 CHARGER",
-    imageSrc: "https://img.freepik.com/premium-vector/electric-scooter-charging-charge-station-electric-vehicle-concept-illustration_148087-249.jpg?w=360",
+    imageSrc:
+      "https://img.freepik.com/premium-vector/electric-scooter-charging-charge-station-electric-vehicle-concept-illustration_148087-249.jpg?w=360",
     description:
       "These chargers are available in a variety of power ratings (from 3.3kW to 22kW), are OCPP compatible, and easy to install, making them ideal for residential apartments, workplaces, and commercial purposes",
   },
@@ -77,7 +78,11 @@ const cards = [
 const Card = ({ imageSrc, title, description }) => (
   <div data-aos="fade-down" className="card w-80   my-5">
     <figure>
-      <img src={imageSrc} alt="car!" className="h-80 w-80 rounded-b-xl object-cover" />
+      <img
+        src={imageSrc}
+        alt="car!"
+        className="h-80 w-80 rounded-b-xl object-cover"
+      />
     </figure>
     <div className=" bg-transparent my-5">
       <h2 className="text-2xl my-2 font-semibold">{title}</h2>
@@ -180,7 +185,9 @@ const Home = () => {
             you covered.
           </p>
         </div>
-        <div className="text-white" id="location" >.</div>
+        <div className="text-white" id="location">
+          .
+        </div>
         <LocationInfo />
         <LocationMob id="location" />
 
@@ -235,7 +242,9 @@ const Home = () => {
           </div>
         </div>
         <div id="partner" className="text-center pb-20 ">
-          <h1 className="text-4xl text-blue-600 font-semibold  py-10 p-5">Our Partners</h1>
+          <h1 className="text-4xl text-blue-600 font-semibold  py-10 p-5">
+            Our Partners
+          </h1>
 
           <div className="flex md:justify-center justify-center md:gap-20 gap-10 px-10 flex-wrap items-center ">
             <img
@@ -244,9 +253,9 @@ const Home = () => {
               className="md:h-36  h-20 object-contain"
             />
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/crest%2B3d_white%2Blogo.png?alt=media&token=4f3b3ce5-a6ab-4daa-809a-d51a615b9fb1"
+              src="https://static1.s123-cdn-static-a.com/uploads/2665555/normal_5da5b6eea34ac.gif"
               alt=""
-              className="md:h-36  invert h-20 object-contain"
+              className="md:h-24   h-20 object-contain"
             />
             <img
               src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/1645291697-BECIL.png?alt=media&token=eaf4e522-7ff7-4de4-b08a-cce8d7694a9b"

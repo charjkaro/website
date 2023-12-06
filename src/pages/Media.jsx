@@ -47,9 +47,23 @@ const Media = () => {
   return (
     <>
       <Helmet>
-        <title>CharjKaro</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <title>Media Gallery | CharjKaro</title>
+        <meta
+          name="description"
+          content="Explore CharjKaro's media hub for the latest in EV charging innovation, news, events, and breakthroughs shaping sustainable mobility's future."
+        />
+        <meta
+          name="keywords"
+          content="ev charging station,
+ev charging station near me,
+ev car charging station,
+ev charging station india,
+ev vehicle charging station,
+fast charging station for ev,
+charging station near me ev,
+ev charging station locator,
+charjkaro, charge karo, "
+        />
         <link rel="canonical" href="https://charjkaro.com/media" />
       </Helmet>
       <div>
@@ -164,7 +178,6 @@ const Media = () => {
             img="https://images.squarespace-cdn.com/content/v1/5f3b08d4515c242514c95656/3c455949-4d1a-4d46-93c4-e70a702e9dde/Picture1.jpg?format=1500w"
           />
         </div>
-       
 
         {/* <Footer /> */}
       </div>

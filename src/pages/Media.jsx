@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Blog from "../components/Blog";
 import { Helmet } from "react-helmet";
+import Appbanner from "../components/Appbanner";
 
 const CardM = ({ day, title, para, img1, img2, img3, img4, colour }) => {
   return (
@@ -65,6 +66,16 @@ ev charging station locator,
 charjkaro, charge karo, "
         />
         <link rel="canonical" href="https://charjkaro.com/media" />
+        <meta property="og:title" content="Media Gallery | CharjKaro" />
+        <meta
+          property="og:description"
+          content="Explore CharjKaro's media hub for the latest in EV charging innovation, news, events, and breakthroughs shaping sustainable mobility's future."
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/chSxRVS/no-bg-logo.png"
+        />
+        <meta property="og:url" content="https://charjkaro.com/media" />
       </Helmet>
       <div>
         {/* <Navbar /> */}
@@ -181,6 +192,7 @@ charjkaro, charge karo, "
 
         {/* <Footer /> */}
       </div>
+      <Appbanner />
     </>
   );
 };

@@ -71,7 +71,9 @@ const Faq = () => {
           content="Got questions? Check out CharjKaro's FAQs for simple answers about EV charging. We're here to make your sustainable journey easy!
 "
         />
-        <meta name="keywords" content="ev charging station,
+        <meta
+          name="keywords"
+          content="ev charging station,
 ev charging station near me,
 ev car charging station,
 ev charging station india,
@@ -79,8 +81,27 @@ ev vehicle charging station,
 fast charging station for ev,
 charging station near me ev,
 ev charging station locator,
-charjkaro, charge karo, " />
+charjkaro, charge karo, "
+        />
         <link rel="canonical" href="https://charjkaro.com/faq" />
+        <meta
+          property="og:title"
+          content="Ask A Question, We Are Ready To Answer Anytime"
+        />
+        <meta
+          property="og:description"
+          content="Got questions? Check out CharjKaro's FAQs for simple answers about EV charging. We're here to make your sustainable journey easy!"
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/chSxRVS/no-bg-logo.png"
+        />
+        <meta property="og:url" content="https://charjkaro.com/faq" />
+        <meta
+          name="keywords"
+          content="ev charging station, ev charging station near me, ev car charging station, ev charging station india, ev vehicle charging station, fast charging station for ev, charging station near me ev, ev charging station locator, charjkaro, charge karo, "
+        />
+        
       </Helmet>
       <div className="">
         {/* <Navbar /> */}

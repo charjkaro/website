@@ -1,0 +1,150 @@
+At CharjKaro, we're at the forefront of the electric vehicle (EV) revolution, offering a one-stop solution for all your EV charging needs. Our mission is to make electric mobility accessible, convenient, and affordable for everyone. Whether you're a seasoned EV driver or new to the world of electric vehicles, CharjKaro has you covered.
+
+Mission:
+
+At CharjKaro, our mission is to accelerate the transition to sustainable transportation by providing accessible and convenient electric vehicle (EV) charging solutions. We are dedicated to building an extensive network of charging stations, delivering a seamless user experience, and promoting eco-conscious mobility. Our goal is to empower individuals and businesses to embrace EVs as a cleaner, greener mode of transportation, contributing to a healthier planet for future generations.
+
+Vision:
+
+Our vision at CharjKaro is to lead the charge towards a sustainable and electrified future of transportation. We envision a world where EV charging is as commonplace and accessible as traditional refueling, where range anxiety is a thing of the past, and where every journey is powered by clean energy. Through innovation, technology, and a commitment to environmental stewardship, we aspire to be a global leader in electric vehicle charging, making green mobility a reality for all.
+
+Values:
+
+1. Sustainability: We're dedicated to eco-friendly transportation.
+2. Accessibility: EV charging should be easy and accessible for all.
+3. Innovation: We lead with technology and forward-thinking.
+4. User Focus: Our users' needs drive our solutions.
+5. Transparency: Honesty in operations and pricing is our priority.
+6. Customer Satisfaction: We aim for exceptional customer service.
+7. Community Engagement: We actively support local initiatives.
+8. Safety: Highest safety standards protect users and the environment.
+9. Reliability: Users can depend on us for consistent service.
+10. Economic Viability: We make electric mobility affordable and viable.
+
+
+
+
+CharjKaro (Advantage)
+
+1. Green Mobility: Charjkaro promotes eco-friendly EV adoption.
+2. Extensive Network: Charjkaro offers a wide network of charging stations.
+3. Cost-Effective Charging: Charjkaro provides a budget-friendly solution for recharging electric vehicles.
+4.Alleviating Range Anxiety: Charjkaro helps users find nearby charging stations, reducing range anxiety.
+ 5.User-Friendly: The app simplifies EV charging for all drivers. 6. 24/7 Support: Customer assistance around the clock.
+7. Real-time Updates: Users check station availability through the app.
+
+
+TECHNOLOGY
+
+There are several types of EV charging stations, each catering to different needs and use cases: Level 1(110V), Level 2(240 V), DC Fast Charger, Tesla Supercharger, Wireless Charger (Inductive Charging), Induction Charger, Ultra-Fast Charger.
+
+What We Offer:-
+
+1. AC001 Charger:-
+
+    This Charger comes with 3 industrial sockets of 3.3kW each and is suitable for charging 2-wheelers, 3-wheelers & 4-wheelers. This charger is certified by ARAI, OCPP compatible and best suitable for fleet (triple socket) charging.
+
+2. AC Type 2 Charger:- 
+
+     These chargers are available in a variety of power ratings (from 3.3kW to 22kW), are OCPP compatible, and easy to install, making them ideal for residential apartments, workplaces, and commercial purposes.
+
+3. DC001 Charger:-
+   
+These chargers are perfect for fast charging all CCS2/S1, GB/T compatible vehicles, including Log9 batteries, Mahindra e-verito, Tata ACE, and Tata Tigor. They are available in single and dual gun floor mounted models, so you can choose the one that best suits your needs.
+
+
+FAQs
+
+1. How do I find EV charging stations near me in India?
+
+
+In India, the CharjKaro app simplifies finding EV charging stations. Download the app, enable location services, and easily locate nearby stations. You can view details, plan trips, initiate charging, and receive real-time availability notifications, making EV charging in India a breeze.
+
+2. What does CharjKaro Offer?
+
+
+   - CharjKaro is a dedicated facility equipped with the necessary infrastructure for efficient and smooth electric vehicle battery recharging. We provide valuable resources and tools to simplify your understanding of electric vehicle charging stations, helping you easily locate and access them as you make the switch to electric mobility.
+
+
+3. How can I find Charjkaro charging stations?  
+
+-  You can easily locate Charjkaro charging stations using their mobile application. Simply download the app, search for nearby stations, and access real-time information.
+
+4. What types of electric vehicles are compatible with CharjKaro stations?
+
+CharjKaro stations are typically designed to accommodate a variety of electric vehicles, including cars, e-bikes, e-rickshaws, and more. Compatibility details are often provided in the app.
+
+5. Is the Charjkaro app available for both Android and iOS devices?  
+
+- Yes, Charjkaro typically offers its mobile application on both the Android and iOS platforms, making it accessible to a wide range of users.
+
+
+6. Does CharjKaro offer fast charging options for electric vehicles?
+
+Yes, CharjKaro usually provides fast charging options, allowing users to charge their vehicles quickly. The app typically indicates which stations offer fast charging.
+
+
+
+7. How can I pay for charging at a public station?
+
+
+   - Payment methods typically include credit/debit cards, mobile apps, and RFID cards provided by the station.
+
+8. Is it possible to overcharge or damage my EV's battery by using public charging stations frequently?
+
+
+    - No, modern EVs are designed to prevent overcharging, and public charging stations are safe to use regularly.
+
+9. Can I charge my EV in the rain or snow at a public charging station?
+
+
+    - Yes, EV charging stations are designed to be weather-resistant and safe to use in various conditions.
+
+10. Are there plans to expand the EV charging station infrastructure in India?
+
+
+    - Yes, Charjkaro is actively working on expanding the EV charging infrastructure to support the growing adoption of electric vehicles.
+
+11. What is range anxiety? Should we be concerned about it?
+
+- Range anxiety, a fear of running out of energy before reaching a charging station, hinders the mass adoption of electric vehicles in developing countries like India. The lack of sufficient EV charging infrastructure amplifies this concern, making it a significant barrier to widespread e-mobility adoption.
+
+12. What types of charging stations are available for EVs?
+
+
+   - There are three main types: Level 1 (120V, standard household outlet), Level 2 (240V, faster charging), and Level 3 (DC fast charging, high-speed charging available at public stations).
+
+
+13. How long does it take to charge an EV at a public charging station?
+
+
+   - Charging times vary based on the EV model and the charger's power. Level 2 chargers typically take a few hours, while Level 3 fast chargers can provide an 80% charge in around 30 minutes.
+
+
+14. Can I reserve a charging station in advance?
+
+Some CharjKaro stations may offer reservation options, allowing you to secure a charging spot in advance. Check the app for availability and reservation features.
+
+Charging Locations
+CharjKaro has an EV charging station at DHALAO NEAR SANGAM CINEMA T- POINT.
+CharjKaro has an EV charging station at NEAR SIRI FORT PARKING AREA.
+CharjKaro has an EV charging station at DHALAO NEAR ADCHINI TRAFFIC SIGNAL.
+CharjKaro has an EV charging station at DHALAO NEAR LSR COLLEGE.
+CharjKaro has an EV charging station at NEAR QUTUB MINAR ROAD.
+CharjKaro has an EV charging station at RAO TULA RAM MARG NEAR SANGAM CUT.
+CharjKaro has an EV charging station at PRESS ENCLAVE ROAD.
+CharjKaro has an EV charging station at DHALAO NEXT TO MALAI MANDIR RING ROAD.
+CharjKaro has an EV charging station at NEAR ANDHERIA MOD.
+CharjKaro has an EV charging station at NEAR ASIAD VILLAGE ROAD.
+CharjKaro has an EV charging station at DHALAO NEAR GK1 NALA.
+CharjKaro has an EV charging station at DHALAO NEAR SAPNA CINEMA.
+CharjKaro has an EV charging station at YUSUF SARAI PARKING AREA FC AAIMS.
+CharjKaro has an EV charging station at Shyam Lal College.
+CharjKaro has an EV charging station at NH8-7 (Panchsheel Park Metro Station Gate No 1).
+CharjKaro has an EV charging station at NH8-5 (Nr IIT FOB).
+CharjKaro has an EV charging station at Hauz khas Metro Station.
+CharjKaro has an EV charging station at Malai Mandir.
+CharjKaro has an EV charging station at RTR Marg 1.
+CharjKaro has an EV charging station at Qutub Minar.
+CharjKaro has an EV charging station at GK2.
+CharjKaro has an EV charging station at Paschim Vihar West.

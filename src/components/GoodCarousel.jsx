@@ -5,9 +5,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import "swiper/css/effect-fade";
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import Hero from "./Hero";
 import MobileHero from "./MobileHero";
 
@@ -17,6 +17,7 @@ export default function App() {
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
+        effect={'fade'}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
@@ -25,7 +26,7 @@ export default function App() {
           clickable: true,
         }}
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation, EffectFade]}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -83,7 +84,6 @@ export default function App() {
             img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/1.webp?alt=media&token=e9769cd1-137e-49d8-925c-9461e820baee"
           />
         </SwiperSlide>
-        
       </Swiper>
     </>
   );

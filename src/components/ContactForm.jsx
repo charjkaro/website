@@ -56,7 +56,7 @@ const ContactForm = () => {
             ></textarea>
           </div>
           <div className="my-10 text-center">
-            <button className="rounded-full  bg-blue-600 border-2 p-4 px-16 text-xl text-white">
+            <button className="rounded-full btn  bg-blue-600 border-2  px-16 text-xl text-white">
               Submit
             </button>
           </div>

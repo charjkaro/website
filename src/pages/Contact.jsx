@@ -1,4 +1,5 @@
 
+import Appbanner from "../components/Appbanner";
 import ContactForm from "../components/ContactForm";
 import Endcard from "../components/Endcard";
 import { Helmet } from "react-helmet";
@@ -91,7 +92,7 @@ charjkaro, charge karo, "
         </div>
         <ContactForm />
         <Endcard title="Find out more about us." location="about" />
-
+<Appbanner />
         {/* <Footer /> */}
       </div>
     </>

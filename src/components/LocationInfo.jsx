@@ -1,48 +1,103 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-creative";
+
+
+
+// import required modules
+import { EffectCreative } from "swiper/modules";
+
 const LocationInfo = () => {
   const locations = [
     {
-      address: "Vasant Vihar, Outer Ring Road",
-      location: "https://maps.app.goo.gl/g2GegxK6Vz6kPQUr8",
+      address: "DHALAO NEAR SANGAM CINEMA T- POINT",
+      location: "https://maps.app.goo.gl/fStT31funmWEZgMj6",
     },
     {
-      address: "Adchini",
-      location: "https://maps.app.goo.gl/GL1AqMNRVocaR7rV9",
+      address: "NEAR SIRI FORT PARKING AREA ",
+      location: "https://maps.app.goo.gl/Mc6mg2soZzVTP4ZNA",
     },
     {
-      address: "RK Puram Sangam Cinema",
-      location: "https://maps.app.goo.gl/EJRZbjJE8BeQHN4G8",
+      address: "DHALAO NEAR ADCHINI TRAFFIC SIGNAL",
+      location: "https://maps.app.goo.gl/Zs3td1KbBeJK3rBF9",
     },
     {
-      address: "Andheriya Mod",
-      location: "https://maps.app.goo.gl/wxpypV1NzYkuWtzz5",
+      address: "DHALAO NEAR LSR COLLEGE ",
+      location: "https://maps.app.goo.gl/8HmyNSYKL9E7tWj59",
     },
     {
-      address: "Siri Fort Auditorium",
-      location: "https://maps.app.goo.gl/1D92Lrj6W7RFbsTt5",
+      address: "NEAR QUTUB MINAR ROAD",
+      location: "https://maps.app.goo.gl/Cq7ARHf6SFWtjMxU7",
     },
     {
-      address: "Near GK 1 Nala",
-      location: "https://maps.app.goo.gl/p4syWB1b2kCuotr19",
+      address: "RAO TULA RAM MARG NEAR SANGAM CUT ",
+      location: "https://maps.app.goo.gl/KDmVx2xJtQYRWUEY7",
     },
     {
-      address: "Saket, Select City Walk",
-      location: "https://maps.app.goo.gl/NCrf7Y3dtpW87aGBA",
+      address: "PRESS ENCLAVE ROAD ",
+      location: "https://maps.app.goo.gl/KZQkVLxKY5yJDH7ZA",
     },
     {
-      address: "Qutub minar",
-      location: "https://maps.app.goo.gl/ACDsmNpAUdZu3sKaA",
+      address: "DHALAO NEXT TO MALAI MANDIR RING ROAD",
+      location: "https://maps.app.goo.gl/KpZWnhWoqC4PN7es8",
     },
     {
-      address: "Khel Gaon, Malviya Nagar",
-      location: "https://maps.app.goo.gl/ciF8HHpj2nKZ5FgZ6",
+      address: "NEAR ANDHERIA MOD",
+      location: "https://maps.app.goo.gl/K4BmwmLzSC8krC6t8",
     },
     {
-      address: "LSR College",
-      location: "https://maps.app.goo.gl/BjyNLwqDahkoyAyr5",
+      address: "NEAR ASIAD VILLAGE ROAD  ",
+      location: "https://maps.app.goo.gl/iQgUM3ugCr7EUHFg6",
     },
     {
-      address: "RTR Marg",
-      location: "https://maps.app.goo.gl/KoeA6nH2YgAcdKbo9",
+      address: "DHALAO NEAR GK1 NALA      ",
+      location: "https://maps.app.goo.gl/u1EdzLXKwThnezCq7",
+    },
+    {
+      address: "DHALAO NEAR SAPNA CINEMA",
+      location: "https://maps.app.goo.gl/SxbLsZgtYTpDTWwRA",
+    },
+    {
+      address: "YUSUF SARAI PARKING AREA FC AAIMS      ",
+      location: "https://maps.app.goo.gl/hFAdGK4YUSmDKzKs5",
+    },
+    {
+      address: "Shyam Lal College",
+      location: "https://maps.app.goo.gl/xzqSMXBSC4QfarXf9",
+    },
+    {
+      address: "NH8-7 (Panchsheel Park Metro Station Gate No 1) ",
+      location: "https://maps.app.goo.gl/44X3txToZrJhLqaW8",
+    },
+    {
+      address: "NH8-5 (Nr IIT FOB)",
+      location: "https://maps.app.goo.gl/dyKR71qNXFUjFAbk9",
+    },
+    {
+      address: "Hauz khas Metro Station ",
+      location: "https://maps.app.goo.gl/ff8hEHcpZiKR87KM9",
+    },
+    {
+      address: "Malai Mandir ",
+      location: "https://maps.app.goo.gl/rmuwGS9BfejJqzH87",
+    },
+    {
+      address: "RTR Marg 1",
+      location: "https://maps.app.goo.gl/EaUR2vhapNMvxkx49",
+    },
+    {
+      address: "Qutub Minar",
+      location: "https://maps.app.goo.gl/htWjcADQimj2hMmP8",
+    },
+    {
+      address: "GK2",
+      location: "https://maps.app.goo.gl/2EbSnvuU1YUwuMX67",
+    },
+    {
+      address: "Paschim Vihar West ",
+      location: "https://maps.app.goo.gl/fLQrmfJh1Ssm18Fp8",
     },
     // Add more location objects as needed
   ];
@@ -51,7 +106,7 @@ const LocationInfo = () => {
     <div>
       <div
         id="location"
-        className="hidden lg:flex flex-col items-center justify-center rounded-3xl bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/imgonline-com-ua-ReplaceColor-yEYGrpRdQ4jaSp.png?alt=media&token=e9a4fa71-8283-4592-9f71-a7f0debb7a41')] bg-cover bg-center bg-[#36aa4a] lg:py-10 text-center font-poppins "
+        className=" lg:flex flex-col items-center justify-center rounded-3xl bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/imgonline-com-ua-ReplaceColor-yEYGrpRdQ4jaSp.png?alt=media&token=e9a4fa71-8283-4592-9f71-a7f0debb7a41')] bg-cover bg-center bg-[#36aa4a] lg:py-10 text-center font-poppins "
         loading="lazy"
       >
         <h1 className="pb-2 pt-10 md:text-4xl text-2xl  font-bold text-white">
@@ -64,47 +119,106 @@ const LocationInfo = () => {
         <div className="flex justify-center items-center px-36 my-10">
           <div className="bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled%20design%20(3).webp?alt=media&token=cf6ed5e2-6d53-47d3-b351-c2ce4f23cde8')] h-[35rem] w-[90vw] flex justify-end p-10 bg-cover rounded-3xl  bg-center m-10">
             <div className="w-96 carousel rounded-box flex justify-center shadow-2xl shadow-green-700">
-              {locations.map((locations, index) => (
-                <div
-                  key={index}
-                  className="card h-[30rem]  bg-base-100 shadow-xl carousel-item w-full"
-                >
-                  <figure className="px- pt-10">
-                    <img
-                      src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled_design__2_-removebg-preview.webp?alt=media&token=11f64028-c437-410c-8ca7-aa4d212339b4"
-                      alt="Shoes"
-                      className="rounded-xl h-44"
-                    />
-                  </figure>
+              <Swiper
+                grabCursor={true}
+                loop={true}
+                effect={"creative"}
+                creativeEffect={{
+                  prev: {
+                    shadow: true,
+                    translate: [0, 0, -400],
+                  },
+                  next: {
+                    translate: ["100%", 0, 0],
+                  },
+                }}
+                modules={[EffectCreative]}
+                className="mySwiper"
+              >
+                {locations.map((location, index) => (
+                  <SwiperSlide
+                    key={index}
+                    className="card h-[30rem]  bg-base-100 shadow-xl carousel-item w-full"
+                  >
+                    <figure className="px- pt-10">
+                      <img
+                        src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled_design__2_-removebg-preview.webp?alt=media&token=11f64028-c437-410c-8ca7-aa4d212339b4"
+                        alt="Shoes"
+                        className="rounded-xl h-44"
+                      />
+                    </figure>
 
-                  <div className="card-body items-center text-center relative">
-                    <h1 className="absolute right-1 text-4xl bottom-48"> →</h1>
-                    <h2 className="card-title text-blue-500">
-                      {" "}
-                      <span className="text-4xl"> {locations.address} </span>
-                    </h2>
+                    <div className="card-body items-center text-center relative">
+                      <h1 className="absolute right-1 text-4xl bottom-48">
+                        {" "}
+                        →
+                      </h1>
+                      <h2 className="card-title text-blue-500">
+                        {" "}
+                        <span className="text-2xl"> {location.address} </span>
+                      </h2>
 
-                    <span className="text-xl"> </span>
-                    <p className="text-green-400">
-                      {" "}
-                      <span className="text-4xl font-semibold ">
-                        300+ EV
-                      </span>{" "}
-                      <br /> Charging Stations
-                    </p>
-                    <div className="card-actions">
-                      <a
-                        className="btn btn-primary hover:bg-blue-700"
-                        href={locations.location}
-                        target="_blank" // Opens the link in a new tab
-                        rel="noopener noreferrer" // Recommended for security reasons
-                      >
-                        Find Out
-                      </a>
+                      <span className="text-xl"> </span>
+                      <p className="text-green-400">
+                        {" "}
+                        <span className="text-4xl font-semibold ">
+                          300+ EV
+                        </span>{" "}
+                        <br /> Charging Stations
+                      </p>
+                      <div className="card-actions">
+                        <a
+                          className="btn btn-primary hover:bg-blue-700"
+                          href={location.location}
+                          target="_blank" // Opens the link in a new tab
+                          rel="noopener noreferrer" // Recommended for security reasons
+                        >
+                          Find Out
+                        </a>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              ))}
+                  </SwiperSlide>
+                  // <div
+                  //   key={index}
+                  //   className="card h-[30rem]  bg-base-100 shadow-xl carousel-item w-full"
+                  // >
+                  //   <figure className="px- pt-10">
+                  //     <img
+                  //       src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled_design__2_-removebg-preview.webp?alt=media&token=11f64028-c437-410c-8ca7-aa4d212339b4"
+                  //       alt="Shoes"
+                  //       className="rounded-xl h-44"
+                  //     />
+                  //   </figure>
+
+                  //   <div className="card-body items-center text-center relative">
+                  //     <h1 className="absolute right-1 text-4xl bottom-48"> →</h1>
+                  //     <h2 className="card-title text-blue-500">
+                  //       {" "}
+                  //       <span className="text-4xl"> {location.address} </span>
+                  //     </h2>
+
+                  //     <span className="text-xl"> </span>
+                  //     <p className="text-green-400">
+                  //       {" "}
+                  //       <span className="text-4xl font-semibold ">
+                  //         300+ EV
+                  //       </span>{" "}
+                  //       <br /> Charging Stations
+                  //     </p>
+                  //     <div className="card-actions">
+                  //       <a
+                  //         className="btn btn-primary hover:bg-blue-700"
+                  //         href={location.location}
+                  //         target="_blank" // Opens the link in a new tab
+                  //         rel="noopener noreferrer" // Recommended for security reasons
+                  //       >
+                  //         Find Out
+                  //       </a>
+                  //     </div>
+                  //   </div>
+                  // </div>
+                ))}
+              </Swiper>
             </div>
           </div>
         </div>

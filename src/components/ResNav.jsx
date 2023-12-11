@@ -46,7 +46,7 @@ const Nav = () => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled%20design%20(1).png?alt=media&token=620fe06b-6770-41d3-8258-f53e657f6b45"
                 alt=""
-                className="w-64"
+                className="w-64 object-cover h-28"
               />
             </div>
             <img src="" alt="" className="" />
@@ -88,8 +88,14 @@ const Nav = () => {
               <li className="nav-link text-lg">
                 <Link to="/contact">Contact</Link>
               </li>
+              <hr />
+              <Link to="/charge">
+                <div className="btn bg-blue-600 text-white text-lg my-2  rounded-full animate-pulse">
+                  How to charge?
+                </div>
+              </Link>
             </ul>
-            <div className="modal-action mt-6 flex justify-center">
+            <div className="modal-action mt-2 flex justify-center">
               <button
                 className="btn bg-transparent border text-white px-10 text-lg"
                 onClick={() => document.getElementById("my_modal_2").close()}

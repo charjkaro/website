@@ -92,8 +92,8 @@ const Navbar = () => {
           </span>
         </div>
       </div>
-      <div className="">
-        <div className="navbar bg-base-100  lg:hidden ">
+      <div className=" ">
+        <div className="navbar bg-base-100  xl:hidden ">
           <Nav />
           <div className="navbar-center">
             <Link to="/">
@@ -106,68 +106,10 @@ const Navbar = () => {
           </div>
           <div className="navbar-end"></div>
         </div>
-        <ul
-          className={`$ hidden justify-center gap-10 p-5  font-bold text-blue-600 lg:flex font-poppins`}
-        >
-          <Link
-            to="/"
-            className="  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-          >
-            Home
-          </Link>
-          <Link
-            to="/about"
-            className="  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-          >
-            About Us
-          </Link>
-          <Link
-            to="/#advantages"
-            className="-  block - - rounded-xl hover:text-black   text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-          >
-            Advantage
-          </Link>
-          <Link
-            to="/#partner"
-            className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-          >
-            Partner
-          </Link>
-          <Link
-            to="/#location"
-            className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-          >
-            {" "}
-            Charging Station
-          </Link>
-          <Link
-            to="/#technology"
-            className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-          >
-            Technology
-          </Link>
-
-          <Link
-            to="/media"
-            className="-  block - - rounded-md hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-          >
-            Media
-          </Link>
-          <Link
-            to="/faq"
-            className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-          >
-            FAQs
-          </Link>
-          <Link
-            to="/contact"
-            className="-  block - - rounded-xl hover:text-black  text-lg transition-transform duration-200 ease-in-out hover:translate-x-2 hover:scale-95"
-          >
-            Contact
-          </Link>
-        </ul>
+       
+        </div>
       </div>
-    </div>
+    
   );
 };
 

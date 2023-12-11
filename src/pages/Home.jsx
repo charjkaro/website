@@ -9,9 +9,12 @@ import "aos/dist/aos.css";
 
 import LocationInfo from "../components/LocationInfo";
 
-import LocationMob from "../components/LocationMob";
+// import LocationMob from "../components/LocationMob";
 import { Helmet } from "react-helmet";
 import GoodCarousel from "../components/GoodCarousel";
+import Appbanner from "../components/Appbanner";
+import ContactForm from "../components/ContactForm";
+import Review from "../components/Review";
 
 const advantages = [
   {
@@ -53,7 +56,7 @@ const Advantage = ({ title, description }) => (
 const cards = [
   {
     imageSrc:
-      "https://images.pexels.com/photos/17748317/pexels-photo-17748317/free-photo-of-electric-car-charger.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/1-min.png?alt=media&token=8f003af0-d106-4592-9267-332ec949b051",
     title: "DC001 CHARGER",
     description:
       "These chargers are perfect for fast charging all CCS2/S1, GB/T compatible vehicles, including Log9 batteries, Mahindra e-verito, Tata ACE, and Tata Tigor. They are available in single and dual gun floor-mounted models, so you can choose the one that best suits your needs.",
@@ -61,13 +64,13 @@ const cards = [
   {
     title: "AC TYPE 2 CHARGER",
     imageSrc:
-      "https://img.freepik.com/premium-vector/electric-scooter-charging-charge-station-electric-vehicle-concept-illustration_148087-249.jpg?w=360",
+      "https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/3-min.png?alt=media&token=514de287-3cc8-4d51-93ff-2a9a7615da91",
     description:
       "These chargers are available in a variety of power ratings (from 3.3kW to 22kW), are OCPP compatible, and easy to install, making them ideal for residential apartments, workplaces, and commercial purposes",
   },
   {
     imageSrc:
-      "https://i0.wp.com/emobilityplus.com/wp-content/uploads/2022/02/Fleely20kW-GBT-DC-Fast-Charging-Station-600x600-1.jpg?fit=600%2C600&ssl=1",
+      "https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/2-min.png?alt=media&token=70103e95-a7d4-4e50-9a5a-bcc7317172b7",
     title: "AC001 CHARGER",
     description:
       "This Charger comes with 3 industrial sockets of 3.3kW each and is suitable for charging 2-wheelers, 3-wheelers & 4-wheelers. This charger is certified by ARAI, OCPP compatible and best suitable for fleet (triple socket) charging.",
@@ -163,7 +166,33 @@ const Home = () => {
           content="ev charging station, ev charging station near me, ev car charging station, ev charging station india, ev vehicle charging station, fast charging station for ev, charging station near me ev, ev charging station locator"
         />
         <link rel="canonical" href="https://charjkaro.com/" />
+        <link rel="canonical" href="https://charjkaro.com/" />
+        <meta
+          property="og:title"
+          content="EV Charging Stations in India | CharjKaro"
+        />
+        <meta
+          property="og:description"
+          content="Revolutionize your EV experience with CharjKaro! Explore seamless power, efficiency, and sustainability in our cutting-edge EV charging stations."
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/chSxRVS/no-bg-logo.png"
+        />
+        <meta
+          name="twitter:title"
+          content="EV Charging Stations in India | CharjKaro"
+        />
+        <meta
+          name="twitter:description"
+          content="Revolutionize your EV experience with CharjKaro! Explore seamless power, efficiency, and sustainability in our cutting-edge EV charging stations."
+        />
+        <meta
+          name="twitter:image"
+          content="https://i.ibb.co/chSxRVS/no-bg-logo.png"
+        />
       </Helmet>
+
       <div className="font-poppins">
         {/* <Navbar /> */}
 
@@ -171,7 +200,7 @@ const Home = () => {
 
         <div
           data-aos="fade-up"
-          className="  text-center  lg:p-20 font-poppins px-5 my-10 "
+          className="  text-center  lg:p-20 font-poppins px-5 my-2 "
         >
           <h1 className="pb-10 text-3xl md:text-4xl font-bold text-blue-600">
             SUSTAINABILITY – THE NEW BUZZ WORD
@@ -189,43 +218,10 @@ const Home = () => {
           .
         </div>
         <LocationInfo />
-        <LocationMob id="location" />
+        {/* <LocationMob id="location" /> */}
+        {/* app info  */}
 
-        <div
-          data-aos="fade-up"
-          className=" font-poppins  py-10 text-center  text-white md:p-10 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/ground.png?alt=media&token=4ad5b176-5662-4baa-80cd-9e59af8f20cb')] bg-cover bg-center"
-        >
-          <h1 className=" pb-10 text-4xl font-bold">CHARJKARO APP</h1>
-          <p className="px-10 text-xl">
-            Download our Mobile App. and get started. Make your payments and
-            book your Station Bay in advance.
-          </p>
-          <div className=" m-10 flex justify-center gap-5 text-black">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://play.google.com/store/apps/details?id=com.charjkaro&pcampaignid=web_share"
-            >
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Google_Play_Store_badge_EN.svg.webp?alt=media&token=f3bc5c3b-27bd-4616-91bb-4adcae92ed07"
-                alt=""
-                className="md:w-44 shadow-2xl shadow-black w-32 transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90 "
-              />
-            </a>
-
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://apps.apple.com/in/app/charjkaro/id6456938758"
-            >
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Download_on_the_App_Store_Badge.svg.png?alt=media&token=f618cd54-3001-4847-8938-e87a4a5c7898"
-                alt=""
-                className="md:w-44 w-32 shadow-2xl shadow-black transition-transform transform hover:translate-x-3 hover:translate-y-3 hover:scale-90"
-              />
-            </a>
-          </div>
-        </div>
+        <Appbanner />
         <AppAdvantages />
         <div
           id="technology"
@@ -241,7 +237,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-        <div id="partner" className="text-center pb-20 ">
+        <div id="partner" className="text-center  ">
           <h1 className="text-4xl text-blue-600 font-semibold  py-10 p-5">
             Our Partners
           </h1>
@@ -271,6 +267,13 @@ const Home = () => {
         </div>
         {/* <Footer /> */}
       </div>
+      <div className="">
+        <h2 className="text-4xl text-center my-10 text-blue-600 font-bold">
+          Reviews
+        </h2>
+        <Review />
+      </div>
+      <ContactForm />
     </>
   );
 };

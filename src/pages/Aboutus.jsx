@@ -35,6 +35,30 @@ charjkaro, charge karo,
 "
         />
         <link rel="canonical" href="https://charjkaro.com/about" />
+        <meta
+          property="og:title"
+          content="About CharjKaro | EV Charging Leaders"
+        />
+        <meta
+          property="og:description"
+          content="Discover CharjKaro's journey as pioneers in EV vehicle charging. Leading the charge for a sustainable future."
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/chSxRVS/no-bg-logo.png"
+        />
+        <meta
+          name="twitter:title"
+          content="About CharjKaro | EV Charging Leaders"
+        />
+        <meta
+          name="twitter:description"
+          content="Discover CharjKaro's journey as pioneers in EV vehicle charging. Leading the charge for a sustainable future."
+        />
+        <meta
+          name="twitter:image"
+          content="https://i.ibb.co/chSxRVS/no-bg-logo.png"
+        />
       </Helmet>
       <div>
         {/* <Navbar /> */}

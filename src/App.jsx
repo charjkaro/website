@@ -7,28 +7,31 @@ import Media from "./pages/Media";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
-
-
-
+import PcNav from "./components/PcNav";
+import Charge from "./pages/Charge";
 
 const App = () => {
-  
-
   return (
-    <div className="overflow-x-hidden">
+    <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Aboutus />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/faq" element={<Faq />} />
-        <Route path="/media" element={<Media />} />
-        <Route path="*" element={<Home/>} />
-      
-      </Routes>
-      <Footer />
-    </div>
+      <div className="sticky top-0 z-40 bg-white">
+        <PcNav />
+      </div>
+      <div className="overflow-x-hidden">
+        <Routes>
+          <>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<Aboutus />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/faq" element={<Faq />} />
+            <Route path="/media" element={<Media />} />
+            <Route path="/charge" element={<Charge />} />
+            <Route path="*" element={<Home />} />
+          </>
+        </Routes>
+        <Footer />
+      </div>
+    </>
   );
 };
 

@@ -15,24 +15,17 @@ const Nav = () => {
 
           {/* hamburger icon */}
           <svg
-            className="swap-off fill-current"
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 512 512"
+            fill="none"
+            viewBox="0 0 24 24"
+            className="inline-block w-5 h-5 stroke-current"
           >
-            <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-          </svg>
-
-          {/* close icon */}
-          <svg
-            className="swap-on fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 512 512"
-          >
-            <polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
           </svg>
         </label>
       </button>
@@ -51,6 +44,12 @@ const Nav = () => {
             </div>
             <img src="" alt="" className="" />
             <ul className="  justify-center gap-16 p-5 font-poppins font-semibold text-white">
+              <Link to="/charge">
+                <div className="  text-white text-lg my-2  rounded-full animate-pulse">
+                  How to charge?
+                </div>
+              </Link>
+              <hr />
               <li className="nav-link text-lg">
                 <Link to="/">Home</Link>
               </li>
@@ -89,11 +88,6 @@ const Nav = () => {
                 <Link to="/contact">Contact</Link>
               </li>
               <hr />
-              <Link to="/charge">
-                <div className="btn bg-blue-600 text-white text-lg my-2  rounded-full animate-pulse">
-                  How to charge?
-                </div>
-              </Link>
             </ul>
             <div className="modal-action mt-2 flex justify-center">
               <button

@@ -28,63 +28,68 @@ const Card = ({ name, image, title, description }) => {
 export default function Review() {
   return (
     <>
-      <Swiper
-        breakpoints={{
-          // when window width is >= 640px
-          640: {
-            slidesPerView: 1,
-          },
-          720: {
-            slidesPerView: 2,
-          },
+      <div className="bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Website%20Banner.png?alt=media&token=2b6c018c-ea9d-40ea-95e6-c0d6bc4cc435')] bg-cover bg-center">
+        <h2 className="text-4xl text-center  text-white pt-10 rounded-3xl font-bold">
+        Testimonials
+        </h2>
+        <Swiper
+          breakpoints={{
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 1,
+            },
+            720: {
+              slidesPerView: 2,
+            },
 
-          // when window width is >= 1024px
-          1025: {
-            slidesPerView: 2,
-          },
-          1200: {
-            slidesPerView: 3,
-          },
-        }}
-        spaceBetween={20}
-        autoplay={true}
-        loop={true}
-        freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[FreeMode, Pagination]}
-        className="mySwiper px-10 flex-wrap"
-      >
-        <SwiperSlide>
-          <Card
-            name="Dilshad Sharma"
-            image="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
-            description="Reliable and fast charging, a game-changer for EV owners."
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card
-            name="Sushant singh"
-            image="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
-            description="Excellent service and fast charging, highly recommended."
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card
-            name="Ayush Chauhan"
-            image="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
-            description="Great location and fast charging, a lifesaver for EV users."
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card
-            name="Riya Rajput"
-            image="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
-            description="Highly convenient, fast charging, excellent service."
-          />
-        </SwiperSlide>
-      </Swiper>
+            // when window width is >= 1024px
+            1025: {
+              slidesPerView: 2,
+            },
+            1200: {
+              slidesPerView: 3,
+            },
+          }}
+          spaceBetween={20}
+          autoplay={true}
+          loop={true}
+          freeMode={true}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[FreeMode, Pagination]}
+          className="mySwiper px-10 flex-wrap"
+        >
+          <SwiperSlide>
+            <Card
+              name="Dilshad Sharma"
+              image="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+              description="Reliable and fast charging, a game-changer for EV owners."
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card
+              name="Sushant singh"
+              image="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+              description="Excellent service and fast charging, highly recommended."
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card
+              name="Ayush Chauhan"
+              image="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+              description="Great location and fast charging, a lifesaver for EV users."
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card
+              name="Riya Rajput"
+              image="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+              description="Highly convenient, fast charging, excellent service."
+            />
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </>
   );
 }

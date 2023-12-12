@@ -94,8 +94,11 @@ charjkaro, charge karo,
       </Helmet>
 
       <div>
-        <h1 className="lg:p-20 px-10 lg:text-7xl text-4xl font-bold ">
-          How to Charge?
+        <h1 className="lg:p-10 px-10 lg:text-7xl text-center text-4xl font-bold ">
+          How to Charge your Electric vehicle?
+        </h1>
+        <h1 className="lg:p-10 px-10 lg:text-7xl text-center text-4xl font-bold ">
+        अपने इलेक्ट्रिक वाहन को कैसे चार्ज करें?
         </h1>
         <div className="flex flex-wrap justify-center gap-10 mt-10 overflow-hidden">
           <img

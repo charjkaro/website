@@ -4,13 +4,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-creative";
 
-
-
 // import required modules
 import { EffectCreative } from "swiper/modules";
 
 const LocationInfo = () => {
   const locations = [
+    {
+      address: "RAO TULA RAM MARG NEAR SANGAM CUT ",
+      location: "https://maps.app.goo.gl/KDmVx2xJtQYRWUEY7",
+    },
     {
       address: "DHALAO NEAR SANGAM CINEMA T- POINT",
       location: "https://maps.app.goo.gl/fStT31funmWEZgMj6",
@@ -31,10 +33,7 @@ const LocationInfo = () => {
       address: "NEAR QUTUB MINAR ROAD",
       location: "https://maps.app.goo.gl/Cq7ARHf6SFWtjMxU7",
     },
-    {
-      address: "RAO TULA RAM MARG NEAR SANGAM CUT ",
-      location: "https://maps.app.goo.gl/KDmVx2xJtQYRWUEY7",
-    },
+
     {
       address: "PRESS ENCLAVE ROAD ",
       location: "https://maps.app.goo.gl/KZQkVLxKY5yJDH7ZA",
@@ -99,7 +98,7 @@ const LocationInfo = () => {
       address: "Paschim Vihar West ",
       location: "https://maps.app.goo.gl/fLQrmfJh1Ssm18Fp8",
     },
-    // Add more location objects as needed
+    
   ];
 
   return (
@@ -138,7 +137,7 @@ const LocationInfo = () => {
                 {locations.map((location, index) => (
                   <SwiperSlide
                     key={index}
-                    className="card h-[30rem]  bg-base-100 shadow-xl carousel-item w-full"
+                    className="card h-[30rem]   bg-base-100  shadow-xl carousel-item "
                   >
                     <figure className="px- pt-10">
                       <img

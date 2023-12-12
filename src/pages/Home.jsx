@@ -15,6 +15,7 @@ import GoodCarousel from "../components/GoodCarousel";
 import Appbanner from "../components/Appbanner";
 import ContactForm from "../components/ContactForm";
 import Review from "../components/Review";
+import VidHero from "../components/VidHero";
 
 const advantages = [
   {
@@ -56,21 +57,23 @@ const Advantage = ({ title, description }) => (
 const cards = [
   {
     imageSrc:
-      "https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/1-min.png?alt=media&token=8f003af0-d106-4592-9267-332ec949b051",
+      "https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/3-min.png?alt=media&token=514de287-3cc8-4d51-93ff-2a9a7615da91",
     title: "DC001 CHARGER",
     description:
       "These chargers are perfect for fast charging all CCS2/S1, GB/T compatible vehicles, including Log9 batteries, Mahindra e-verito, Tata ACE, and Tata Tigor. They are available in single and dual gun floor-mounted models, so you can choose the one that best suits your needs.",
   },
   {
     title: "AC TYPE 2 CHARGER",
+
     imageSrc:
-      "https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/3-min.png?alt=media&token=514de287-3cc8-4d51-93ff-2a9a7615da91",
+      "https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/2-min.png?alt=media&token=70103e95-a7d4-4e50-9a5a-bcc7317172b7",
     description:
       "These chargers are available in a variety of power ratings (from 3.3kW to 22kW), are OCPP compatible, and easy to install, making them ideal for residential apartments, workplaces, and commercial purposes",
   },
   {
     imageSrc:
-      "https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/2-min.png?alt=media&token=70103e95-a7d4-4e50-9a5a-bcc7317172b7",
+      "https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/1-min.png?alt=media&token=8f003af0-d106-4592-9267-332ec949b051",
+
     title: "AC001 CHARGER",
     description:
       "This Charger comes with 3 industrial sockets of 3.3kW each and is suitable for charging 2-wheelers, 3-wheelers & 4-wheelers. This charger is certified by ARAI, OCPP compatible and best suitable for fleet (triple socket) charging.",
@@ -196,7 +199,8 @@ const Home = () => {
       <div className="font-poppins">
         {/* <Navbar /> */}
 
-        <GoodCarousel />
+        {/* <GoodCarousel /> */}
+        <VidHero />
 
         <div
           data-aos="fade-up"
@@ -268,9 +272,7 @@ const Home = () => {
         {/* <Footer /> */}
       </div>
       <div className="">
-        <h2 className="text-4xl text-center my-10 text-blue-600 font-bold">
-          Reviews
-        </h2>
+       
         <Review />
       </div>
       <ContactForm />

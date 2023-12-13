@@ -6,6 +6,15 @@ import "aos/dist/aos.css";
 import Blog from "../components/Blog";
 import { Helmet } from "react-helmet";
 import Appbanner from "../components/Appbanner";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/effect-fade";
+// import required modules
+import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 
 const CardM = ({ day, title, para, img1, img2, img3, img4, colour }) => {
   return (
@@ -20,18 +29,18 @@ const CardM = ({ day, title, para, img1, img2, img3, img4, colour }) => {
             <p className="text-base">{para}</p>
           </div>
           <div className="bg-[{`url(${img1})`}] my-8 h-56 w-[95%] overflow-hidden md:w-1/2">
-            <img src={img1} alt="" className="" />
+            <img src={img1} alt="" className="object-cover" />
           </div>
         </div>
         <div data-aos="fade-down" className="m-2 hidden w-full gap-4 md:flex ">
           <div className="h-52 w-full  md:w-1/3 ">
-            <img src={img2} alt="" className="h-[100%] w-[100%]" />
+            <img src={img2} alt="" className="h-[100%] w-[100%] object-cover" />
           </div>
           <div className="h-52 w-full  md:w-1/3">
-            <img src={img3} alt="" className="h-[100%] w-[100%]" />
+            <img src={img3} alt="" className="h-[100%] w-[100%] object-cover" />
           </div>
           <div className="h-52 w-full  md:w-1/3">
-            <img src={img4} alt="" className="h-[100%] w-[100%]" />
+            <img src={img4} alt="" className="h-[100%] w-[100%] object-cover" />
           </div>
         </div>
       </div>
@@ -175,18 +184,28 @@ charjkaro, charge karo, "
         {/* blog */}
         <div className="md:p-20 p-5 py-5">
           <Blog
-            title="Everything You Need to Know About EV Plug Types"
-            link="https://www.evconnect.com/blog/guide-to-ev-plug-types"
-            para="If you’re filling up a car that has an internal combustion engine (ICE), you only need to distinguish between the gas and diesel pump. For drivers of electric vehicles (EVs), however, there are more options to choose from. That’s because on the one hand, the nascent EV sector is still on a path to standardization, and on the other because different charging speeds and power loads require more than one type of EV plug. Here’s how to identify the right EV plug for the three types of electric vehicles (EVs) that require a plug-in charger, namely plug-in hybrids (PHEVs), battery electric vehicles (BEVs), and cars using proprietary chargers."
-            img="https://images.squarespace-cdn.com/content/v1/5f3b08d4515c242514c95656/1695853014014-KGZVNFPX8U61JD0J6RV9/Everything+You+Need+to+Know+about+EV+Plug+Types+_+EV+Connect.jpg?format=2500w"
+            title="Unveiling the Potential: Electric Vehicle Opportunities in India
+            "
+            link="/blog1"
+            para="As a major player in the global automobile market, India's nationwide shift to electric vehicles is poised to be a pivotal moment on a global scale and within the country. Fueled by the Indian government's commitment to sustainable transportation, increasing consumer interest in cutting-edge technologies, and the involvement of private entities investing in electric vehicle technology, the outlook for electric vehicles in India appears optimistic.
+            "
+            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Cover%20image%201.png?alt=media&token=ea89f0ef-5658-4df2-acde-3514c8d981a1"
           />
           <Blog
-            title="How Much Does it Cost to Charge an Electric Car at a Public Charging Station?"
-            link="https://www.evconnect.com/blog/ev-charging-costs-at-public-stations"
-            para="The 60% surge in new electric vehicle (EV) registrations in Q1 2022 shows that drivers are hungry for change, provided that somewhere to charge is on the menu. For most drivers, home is still where the charge is. It’s where 80% of Tesla drivers refuel, for example. However, domestic Level 1 charging won’t sustain a national shift to EVs. We can’t expect the market to move en masse towards electric until the public recharging network matches the landscape for petrol-powered vehicles. 
+            title="Transforming EV Range Anxiety into Range Confidence
+            "
+            link="/blog2"
+            para="
+            Understanding EV Range Anxiety and Range Confidence:
+            EV Range Anxiety is the worry of running out of power and being stranded, while Range Confidence is the assurance of ample battery capacity.
+            Modern EVs require less frequent charging with increased battery capacity.
+            Expanded EV charging infrastructure at home, work, and on-the-go enhances range confidence.
+            Level 2 charging facilitates home and work charging, while DCFC supports fleets and road trips.
+            The EV market is a present reality.
+            
 
           "
-            img="https://images.squarespace-cdn.com/content/v1/5f3b08d4515c242514c95656/3c455949-4d1a-4d46-93c4-e70a702e9dde/Picture1.jpg?format=1500w"
+            img="https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Transforming%20EV%20Range%20Anxiety%20into%20Range%20Confidence.png?alt=media&token=ad2cc1c3-7cb8-462d-81c2-fd8d810adbed"
           />
         </div>
 

@@ -9,6 +9,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import PcNav from "./components/PcNav";
 import Charge from "./pages/Charge";
+import Blog1 from "./pages/blog/Blog1";
+import Blog2 from "./pages/blog/Blog2";
 
 const App = () => {
   return (
@@ -26,6 +28,8 @@ const App = () => {
             <Route path="/faq" element={<Faq />} />
             <Route path="/media" element={<Media />} />
             <Route path="/charge" element={<Charge />} />
+            <Route path="/blog1" element={<Blog1 />} />
+            <Route path="/blog2" element={<Blog2 />} />
             <Route path="*" element={<Home />} />
           </>
         </Routes>

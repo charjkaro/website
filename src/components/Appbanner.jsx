@@ -5,7 +5,7 @@ const Appbanner = () => {
     <div>
       <div
         data-aos="fade-up"
-        className=" font-poppins  py-10 text-center  text-white md:p-10 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/ground.png?alt=media&token=4ad5b176-5662-4baa-80cd-9e59af8f20cb')] bg-cover bg-center"
+        className=" font-poppins my-2 rounded-2xl  py-10 text-center  text-white md:p-10 bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/ground.png?alt=media&token=4ad5b176-5662-4baa-80cd-9e59af8f20cb')] bg-cover bg-center"
       >
         <h1 className=" pb-10 text-4xl font-bold">CHARJKARO APP</h1>
         <p className="px-10 text-xl">

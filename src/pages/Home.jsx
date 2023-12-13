@@ -11,7 +11,7 @@ import LocationInfo from "../components/LocationInfo";
 
 // import LocationMob from "../components/LocationMob";
 import { Helmet } from "react-helmet";
-import GoodCarousel from "../components/GoodCarousel";
+
 import Appbanner from "../components/Appbanner";
 import ContactForm from "../components/ContactForm";
 import Review from "../components/Review";
@@ -87,7 +87,7 @@ const Card = ({ imageSrc, title, description }) => (
       <img
         src={imageSrc}
         alt="car!"
-        className="h-80 w-80 rounded-b-xl object-cover"
+        className="h-80 w-80 rounded-b-xl object-cover border-4 rounded-3xl border-white"
       />
     </figure>
     <div className=" bg-transparent my-5">

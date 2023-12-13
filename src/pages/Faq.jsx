@@ -2,7 +2,6 @@ import { useEffect } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Endcard from "../components/Endcard";
 import { Helmet } from "react-helmet";
 
 const json = {
@@ -124,7 +123,7 @@ charjkaro, charge karo, "
             ))}
           </div>
         </div>
-        <Endcard title="Still have a Question ?" location="contact" />
+      
 
         {/* <Footer /> */}
       </div>

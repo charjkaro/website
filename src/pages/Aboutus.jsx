@@ -228,11 +228,14 @@ charjkaro, charge karo,
                 RAGHU KHANNA
               </h1>
               <p className="font-poppins text-md text-gray-600">
-                A graduate from IIT Guwahati, he delved into transit advertising
-                with CASHurDRIVE nine years ago. Specializing in ads on radio
-                taxis like Mega, Meru, Easy, Tabcabs, it's a sub-branch of
-                outdoor advertising. Today, his company is a recognized name in
-                Transit advertising, standing out for its innovative strategies.
+                An alumnus of IIT Guwahati, is the visionary
+                founder of CASHurDRIVE, a company he established in the year
+                2008. Pioneering the realm of transit advertising, he
+                strategically ventured into the dynamic field of advertisements
+                on radio taxis, including Mega, Meru, Easy, and Tabcabs. Today,
+                under his leadership, CASHurDRIVE has become a distinguished
+                name in both transit and OOH advertising, renowned for its
+                innovative approaches and impactful strategies.
               </p>
               <div className="flex gap-2 pt-2">
                 <a

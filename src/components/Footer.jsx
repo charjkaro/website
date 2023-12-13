@@ -26,8 +26,8 @@ const Footer = () => {
 
           <div className="py-2">
             <p className="text-2xl font-bold">Call us</p>
-            <a href="tel:+91112345678">+91-11-234-5678</a> <br />
-            <a href="tel:+91112345678">+91-11-234-5678</a>
+            <a href="tel:18002034044">1800 203 4044</a> <br />
+            
           </div>
           <div className="py-2">
             <p className="text-2xl font-bold">Email</p>
@@ -37,8 +37,8 @@ const Footer = () => {
           </div>
 
           <div className="py-2">
-            <p className="text-2xl font-bold">Location</p>
-            SoHo 930 New Delhi, India
+            <p className="text-2xl font-bold max-w-96">Location</p>
+            1103, World Trade Tower, <br /> DND Flyway, <br /> Sector 16 Noida, <br /> Uttar Pradesh, 201301
           </div>
         </div>
         <div className="md:w-1/4">

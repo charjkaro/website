@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="font-poppins   ">
       <div className="md:flex items-center justify-evenly bg-blue-600 p-1 text-white hidden">
         <div className="gap-10 md:flex">
-          <h1 className="font-">Soho 930 New Delhi, India</h1>
+          <h1 className="font-">1103, WTT, Noida-16, UP</h1>
           <h1 className="font-">
             <a href="mailto:info@charjkaro.com">
               <p>info@charjkaro.com</p>
@@ -83,12 +83,12 @@ const Navbar = () => {
         </div>
         <div className="p-2 text-right ">
           <span className="text-lg font-bold text-green-600">
-            Get free consultation!
+            Customer Support
           </span>{" "}
           <br />
           <span className="text-xl font-bold text-blue-600">
             {" "}
-            <a href="tel:+91112345678">+91-11-234-5678</a>
+            <a href="tel:18002034044">1800 203 4044</a>
           </span>
         </div>
       </div>

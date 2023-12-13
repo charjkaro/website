@@ -98,7 +98,6 @@ const LocationInfo = () => {
       address: "Paschim Vihar West ",
       location: "https://maps.app.goo.gl/fLQrmfJh1Ssm18Fp8",
     },
-    
   ];
 
   return (
@@ -108,14 +107,14 @@ const LocationInfo = () => {
         className=" lg:flex flex-col items-center justify-center rounded-3xl bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/imgonline-com-ua-ReplaceColor-yEYGrpRdQ4jaSp.png?alt=media&token=e9a4fa71-8283-4592-9f71-a7f0debb7a41')] bg-cover bg-center bg-[#36aa4a] lg:py-10 text-center font-poppins "
         loading="lazy"
       >
-        <h1 className="pb-2 pt-10 md:text-4xl text-2xl  font-bold text-white">
+        <h1 className="pb-2 px-2 mb-4 pt-10 md:text-4xl text-2xl  font-bold text-white">
           CHARJKARO STATION LOCATION
         </h1>
         <p className="px-10 text-left text-lg md:text-center text-white">
           CharjKaro has a network of 300+ EV Charging Stations spread across
           Delhi. Presenting a chain of reliable charging options in Delhi
         </p>
-        <div className="flex justify-center items-center px-36 my-10">
+        <div className="flex justify-center items-center px-36 my-2">
           <div className="bg-[url('https://firebasestorage.googleapis.com/v0/b/charjkaro-7a3bc.appspot.com/o/Untitled%20design%20(3).webp?alt=media&token=cf6ed5e2-6d53-47d3-b351-c2ce4f23cde8')] h-[35rem] w-[90vw] flex justify-end p-10 bg-cover rounded-3xl  bg-center m-10">
             <div className="w-96 carousel rounded-box flex justify-center shadow-2xl shadow-green-700">
               <Swiper
@@ -148,7 +147,7 @@ const LocationInfo = () => {
                     </figure>
 
                     <div className="card-body items-center text-center relative">
-                      <h1 className="absolute right-1 text-4xl bottom-48">
+                      <h1 className="absolute right-1 text-4xl bottom-48 hidden lg:block">
                         {" "}
                         →
                       </h1>
@@ -175,6 +174,7 @@ const LocationInfo = () => {
                           Find Out
                         </a>
                       </div>
+                        <h1 className="text-center text-[3rem] absolute z-50 bottom-[1.5rem] right-2 p-0  lg:hidden"> →</h1>
                     </div>
                   </SwiperSlide>
                   // <div
